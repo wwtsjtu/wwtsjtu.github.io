@@ -1,6 +1,6 @@
 # Wentao Wu（吴文涛）
 
-<img src="https://raw.githubusercontent.com/wwtsjtu/wwtsjtu.github.io/master/img/1.jpeg" width="150" height="200" alt="" align= "right"/>
+<img src="https://raw.githubusercontent.com/wwtsjtu/wwtsjtu.github.io/master/img/1.jpeg" width="120" height="165" alt="" align= "right"/>
 
 **Status:** Ph.D. Candiate (Advisor: Prof. [Weidong Zhang](https://automation.sjtu.edu.cn/wdzhang))
 <br/>
