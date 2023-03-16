@@ -22,7 +22,7 @@
 - M.S. in Electrical Engineering [Dalian Maritime University](https://www.dlmu.edu.cn/)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;09/2018-06/2021
   <br>Advisors: Prof. [Dan Wang](https://scholar.google.com/citations?user=kc8gnlMAAAAJ&hl=zh-CN) and Prof. [Zhouhua Peng](https://scholar.google.com/citations?user=hM_5JDYAAAAJ&hl=zh-CN)
 - B.S. in Electrical Engineering and Automation [Harbin University of Science and Technology](http://www.hrbust.edu.cn/)
-  <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;09/2014-06/2018
+  <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;09/2014-06/2018
 
 <br>
 
