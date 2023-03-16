@@ -46,24 +46,35 @@ I am currently pursuing the Ph.D. degree (advised by Prof. [Weidong Zhang](https
 
 ### Honor/Award
 
-- Liaoning Province Excellent Dissertation (No.LNYS202127), DLMU, 2021
-- National Scholarship for Postgraduate Student, DLMU, 2020
-- Outstanding Graduate of Dalian, DLMU, 2020
-- Outstanding Graduate of Dalian Maritime University, DLMU, 2020
-- National Third Prize of China Graduate Electronics Design Contest, DLMU, 2020
-- Provincial First Prize of China Graduate Electronics Design Contest (3 times from 2019), DLMU, 2020
+- 2021 Liaoning Province Excellent Dissertation (No.LNYS202127), DLMU
+- 2020 National Scholarship for Postgraduate Student, DLMU
+- 2020 Outstanding Graduate of Dalian, DLMU, 2020
+- 2020 Outstanding Graduate of Dalian Maritime University, DLMU
+- 2020 National Third Prize of China Graduate Electronics Design Contest, DLMU
+- 2020 Provincial First Prize of China Graduate Electronics Design Contest (3 times from 2019), DLMU
 
 
-### Journal Reviewer
+### Academic Activities:
 
-- _IEEE Transactions on Systems, Man and Cybernetics: Systems_
-- _IEEE/CAA Journal of Automatica Sinica_
-- _IEEE Internet of Things Journal_
-- _IEEE Transactions on Intelligent Vehicles_
-- _Ocean Engineering_
-- _Nonlinear Dynamics_
-- _自动化学报 (中文版)_
+-Journal Reviewer
 
+ IEEE Transactions on Systems, Man and Cybernetics: Systems
+ 
+ IEEE/CAA Journal of Automatica Sinica
+ 
+ IEEE Internet of Things Journal
+ 
+ IEEE Transactions on Intelligent Vehicles
+ 
+ Ocean Engineering
+ 
+ Nonlinear Dynamics
+ 
+ 自动化学报 (中文版)
+
+-Conference Reviewer
+
+ ACC 2022; CCC 2023; CCDC 2022, 2023
 <br/>
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=400&t=tt&d=33rfvldNVUcycfQXDZFOyRp8Yqp-wB8RiOMqgHfUEfI'></script>
 
