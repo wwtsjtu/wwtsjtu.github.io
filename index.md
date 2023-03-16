@@ -17,9 +17,9 @@
 
 ### Education
 
-- 09/2021-Current: Eng. D. in Shanghai Jiao Tong University (SJTU); (Advisor: Prof.[Weidong Zhang](https://automation.sjtu.edu.cn/wdzhang))
-- 09/2018-06/2021: M.S. in Electrical Engineering, Dalian Maritime University (DLMU) (Advisors: Prof. [Dan Wang](https://scholar.google.com/citations?user=kc8gnlMAAAAJ&hl=zh-CN) and Prof. [Zhouhua Peng](https://scholar.google.com/citations?user=hM_5JDYAAAAJ&hl=zh-CN))
-- 09/2014-06/2018: B.S. in Electrical Engineering and Automation, Harbin University of Science and Technology (HUST)
+- Eng. D. in Electronic Information [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/) (Advisor: Prof. [Weidong Zhang](https://automation.sjtu.edu.cn/wdzhang))&emsp;09/2021-Current
+- M.S. in Electrical Engineering [Dalian Maritime University](https://www.dlmu.edu.cn/) (Advisors: Prof. [Dan Wang](https://scholar.google.com/citations?user=kc8gnlMAAAAJ&hl=zh-CN) and Prof. [Zhouhua Peng](https://scholar.google.com/citations?user=hM_5JDYAAAAJ&hl=zh-CN))--09/2018-06/2021
+- B.S. in Electrical Engineering and Automation [Harbin University of Science and Technology](http://www.hrbust.edu.cn/)--09/2014-06/2018
 
 
 ### Publications
