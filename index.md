@@ -13,7 +13,7 @@
 **Research Interests:** Marine unmanned systems, cooperative control, game theorey, and safety-critical control
 <br/>
 **Social:**
- **[[E-mail]](wentao-wu@sjtu.edu.cn)** &emsp; **[[Google Scholar]](https://scholar.google.com/citations?hl=zh-CN)** &emsp; **[[ResearchGate]](https://www.researchgate.net/profile/Wu-Wentao-5)** &emsp; **[[Orcid]](https://orcid.org/0000-0002-3740-598X)** &emsp; **[[WOS]](https://www.webofscience.com/wos/author/record/ADK-2450-2022)** 
+ **[[E-mail]](wentao-wu@sjtu.edu.cn)** &emsp; **[[Google Scholar]](https://scholar.google.com/citations?hl=zh-CN)** &emsp; **[[ResearchGate]](https://www.researchgate.net/profile/Wu-Wentao-5)** &emsp; **[[ORCID]](https://orcid.org/0000-0002-3740-598X)** &emsp; **[[WoS]](https://www.webofscience.com/wos/author/record/ADK-2450-2022)** 
 
 ### Education
 
