@@ -35,14 +35,13 @@ I am currently pursuing the Ph.D. degree (advised by Prof. [Weidong Zhang](https
   
   [7]	Xiangxuan Ren, Min Li, Zhi Liu, Zhenhua Li, **Wentao Wu**, Lin Bai, and Weidong Zhang*. "Curiosity-Driven Attention for Anomaly Road Obstacles Segmentation in Autonomous Driving." in _IEEE Transactions on Intelligent Vehicles_, 2022, doi: 10.1109/TIV.2022.3204714. [中科院 2区, JCR 1区, IF: 5.009] [[PDF]](https://ieeexplore.ieee.org/abstract/document/9878245)
 
-  [8]	Yibo Zhang, Wentao Wu, Jinhui Lu, and Weidong Zhang*. "Neural Predictor-based Dynamic Surface Parallel Control for MIMO Uncertain Nonlinear Strict-feedback Systems." in IEEE Transactions on Circuits and Systems II: Express Briefs, Feb. 2023, doi: 10.1109/TCSII.2023.3252562. [中科院 2区, JCR 2区, IF: 3.691] [[PDF]](https://ieeexplore.ieee.org/abstract/document/10059139)
+  [8]	Yibo Zhang, **Wentao Wu**, Jinhui Lu, and Weidong Zhang*. "Neural Predictor-based Dynamic Surface Parallel Control for MIMO Uncertain Nonlinear Strict-feedback Systems." in _IEEE Transactions on Circuits and Systems II: Express Briefs_, Feb. 2023, doi: 10.1109/TCSII.2023.3252562. [中科院 2区, JCR 2区, IF: 3.691] [[PDF]](https://ieeexplore.ieee.org/abstract/document/10059139)
 
 
 - Conference:
 
-  [1] **J. Lin**, T.-Z. Huang, X.-L. Zhao, M. Ding, Y. Chen, T.-X. Jiang, "A Blind Cloud/Shadow Removal Strategy for Multi-Temporal Remote Sensing Images", _IEEE International Geoscience and Remote Sensing Symposium_, 2021. [[PDF]](https://ieeexplore.ieee.org/document/9554515)
-  
-  [2] M. Ding, T.-Z. Huang, X.-L. Zhao, **J. Lin**, J.-H. Yang, "Factor-Regularized Nonnegative Tensor Decomposition for Blind Hyperspectral Unmixing", _IEEE International Geoscience and Remote Sensing Symposium_, 2021. [[PDF]](https://ieeexplore.ieee.org/document/9554525)
+  [1] **Wentao Wu**, Yibo Zhang, Weidong Zhang*, and Di Wu, “Safety-Certified Consensus Control of Multi-Agent Systems Based on Finite-Time Control Barrier Function,” _2022 41th Chinese Control Conference (CCC)_, 2022, accepted. [[PDF]](https://ieeexplore.ieee.org/document/9554515)
+ 
   
 
 ### Award
