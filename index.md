@@ -21,26 +21,26 @@ I am currently pursuing the Ph.D. degree (advised by Prof. [Weidong Zhang](https
 ### Publication
 - Journal:
 
-  [1]	**Wentao Wu**, Zhouhua Peng*, Dan Wang, Lu Liu, and Qing-Long Han*. "Network-Based Line-of-Sight Path Tracking of Underactuated Unmanned Surface Vehicles with Experiment Results." in _IEEE Transactions on Cybernetics_, vol. 52, no. 10, pp. 10937-10947, Oct. 2022. [中科院 1区, JCR 1区, Top, IF: 19.12] [[PDF]](https://ieeexplore.ieee.org/abstract/document/9440777)
+  [1]	**W. Wu**, Z. Peng*, D. Wang, L. Liu, and Q.-L. Han. "Network-Based Line-of-Sight Path Tracking of Underactuated Unmanned Surface Vehicles with Experiment Results." in _IEEE Transactions on Cybernetics_, vol. 52, no. 10, pp. 10937-10947, Oct. 2022. [中科院 1区, JCR 1区, Top, IF: 19.12] [[PDF]](https://ieeexplore.ieee.org/abstract/document/9440777)
   
-  [2]	**Wentao Wu**, Yibo Zhang, Weidong Zhang*, and Wei Xie. "Output-Feedback Finite-Time Safety-Critical Coordinated Control of Path-Guided Marine Surface Vehicles Based on Neurodynamic Optimization," in _IEEE Transactions on Systems, Man and Cybernetics: Systems_, vol. 53, no. 3, pp. 1788-1800, Sep. 2022. [中科院 1区, JCR 1区, Top, IF: 11.471] [[PDF]](https://ieeexplore.ieee.org/abstract/document/9900363)
+  [2]	**W. Wu**, Yibo Zhang, Weidong Zhang*, and Wei Xie. "Output-Feedback Finite-Time Safety-Critical Coordinated Control of Path-Guided Marine Surface Vehicles Based on Neurodynamic Optimization," in _IEEE Transactions on Systems, Man and Cybernetics: Systems_, vol. 53, no. 3, pp. 1788-1800, Sep. 2022. [中科院 1区, JCR 1区, Top, IF: 11.471] [[PDF]](https://ieeexplore.ieee.org/abstract/document/9900363)
   
-  [3]	**Wentao Wu**, Zhouhua Peng*, Lu Liu, and Dan Wang. "A General Safety-Certified Cooperative Control Architecture for Interconnected Intelligent Surface Vehicles with Applications to Vessel Train." in _IEEE Transactions on Intelligent Vehicles_, vol. 7, no. 3, pp. 627-637, Sep. 2022. [中科院 2区, JCR 1区, IF: 5.009] [[PDF]](https://ieeexplore.ieee.org/abstract/document/9762043)
+  [3]	**W. Wu**, Zhouhua Peng*, Lu Liu, and Dan Wang. "A General Safety-Certified Cooperative Control Architecture for Interconnected Intelligent Surface Vehicles with Applications to Vessel Train." in _IEEE Transactions on Intelligent Vehicles_, vol. 7, no. 3, pp. 627-637, Sep. 2022. [中科院 2区, JCR 1区, IF: 5.009] [[PDF]](https://ieeexplore.ieee.org/abstract/document/9762043)
   
-  [4]	**Wentao Wu**, Zhouhua Peng*, Dan Wang, Lu Liu, and Gu Nan. "Anti-Disturbance Leader–Follower Synchronization Control of Marine Vessels for Underway Replenishment Based on Robust Exact Differentiators." in _Oceanic Engineering_, vol. 248, pp. 110686, 2022. [中科院 2区, JCR 1区, Top, IF: 4.372] [[PDF]](https://www.sciencedirect.com/science/article/abs/pii/S0029801822001445)
+  [4]	**W. Wu**, Zhouhua Peng*, Dan Wang, Lu Liu, and Gu Nan. "Anti-Disturbance Leader–Follower Synchronization Control of Marine Vessels for Underway Replenishment Based on Robust Exact Differentiators." in _Oceanic Engineering_, vol. 248, pp. 110686, 2022. [中科院 2区, JCR 1区, Top, IF: 4.372] [[PDF]](https://www.sciencedirect.com/science/article/abs/pii/S0029801822001445)
   
-  [5]	**Wentao Wu**, Yibo Zhang, Weidong Zhang*, and Wei Xie*. "Distributed Finite-Time Performance-Prescribed Time-Varying Formation Control of Autonomous Surface Vehicles with Saturated Inputs." in _Oceanic Engineering_, vol. 266, pp. 12866, Oct. 2022. [中科院 2区, JCR 1区, Top, IF: 4.372] [[PDF]](https://www.sciencedirect.com/science/article/abs/pii/S0029801822021497)
+  [5]	**W. Wu**, Yibo Zhang, Weidong Zhang*, and Wei Xie*. "Distributed Finite-Time Performance-Prescribed Time-Varying Formation Control of Autonomous Surface Vehicles with Saturated Inputs." in _Oceanic Engineering_, vol. 266, pp. 12866, Oct. 2022. [中科院 2区, JCR 1区, Top, IF: 4.372] [[PDF]](https://www.sciencedirect.com/science/article/abs/pii/S0029801822021497)
   
-  [6]	Yibo Zhang, **Wentao Wu**, and Weidong Zhang*. "Noncooperative Game-Based Cooperative Maneuvering of Intelligent Surface Vehicles Via Accelerated Learning-Based Neural Predictors." in _IEEE Transactions on Intelligent Vehicles_, 2022, doi: 10.1109/TIV.2022.3222009. [中科院 2区, JCR 1区, IF: 5.009] [[PDF]](https://ieeexplore.ieee.org/abstract/document/9950329)
+  [6]	Yibo Zhang, **W. Wu**, and Weidong Zhang*. "Noncooperative Game-Based Cooperative Maneuvering of Intelligent Surface Vehicles Via Accelerated Learning-Based Neural Predictors." in _IEEE Transactions on Intelligent Vehicles_, 2022, doi: 10.1109/TIV.2022.3222009. [中科院 2区, JCR 1区, IF: 5.009] [[PDF]](https://ieeexplore.ieee.org/abstract/document/9950329)
   
-  [7]	Xiangxuan Ren, Min Li, Zhi Liu, Zhenhua Li, **Wentao Wu**, Lin Bai, and Weidong Zhang*. "Curiosity-Driven Attention for Anomaly Road Obstacles Segmentation in Autonomous Driving." in _IEEE Transactions on Intelligent Vehicles_, 2022, doi: 10.1109/TIV.2022.3204714. [中科院 2区, JCR 1区, IF: 5.009] [[PDF]](https://ieeexplore.ieee.org/abstract/document/9878245)
-
-  [8]	Yibo Zhang, **Wentao Wu**, Jinhui Lu, and Weidong Zhang*. "Neural Predictor-based Dynamic Surface Parallel Control for MIMO Uncertain Nonlinear Strict-feedback Systems." in _IEEE Transactions on Circuits and Systems II: Express Briefs_, Feb. 2023, doi: 10.1109/TCSII.2023.3252562. [中科院 2区, JCR 2区, IF: 3.691] [[PDF]](https://ieeexplore.ieee.org/abstract/document/10059139)
+  [7]	Yibo Zhang, **W. Wu**, Jinhui Lu, and Weidong Zhang*. "Neural Predictor-based Dynamic Surface Parallel Control for MIMO Uncertain Nonlinear Strict-feedback Systems." in _IEEE Transactions on Circuits and Systems II: Express Briefs_, Feb. 2023, doi: 10.1109/TCSII.2023.3252562. [中科院 2区, JCR 2区, IF: 3.691] [[PDF]](https://ieeexplore.ieee.org/abstract/document/10059139)
+  
+  [8]	Xiangxuan Ren, Min Li, Zhi Liu, Zhenhua Li, **W. Wu**, Lin Bai, and Weidong Zhang*. "Curiosity-Driven Attention for Anomaly Road Obstacles Segmentation in Autonomous Driving." in _IEEE Transactions on Intelligent Vehicles_, 2022, doi: 10.1109/TIV.2022.3204714. [中科院 2区, JCR 1区, IF: 5.009] [[PDF]](https://ieeexplore.ieee.org/abstract/document/9878245)
 
 
 - Conference:
 
-  [1] **Wentao Wu**, Yibo Zhang, Weidong Zhang*, and Di Wu, “Safety-Certified Consensus Control of Multi-Agent Systems Based on Finite-Time Control Barrier Function,” _2022 41th Chinese Control Conference (CCC)_, 2022, accepted. [[PDF]](https://ieeexplore.ieee.org/document/9554515)
+  [1] **W. Wu**, Yibo Zhang, Weidong Zhang*, and Di Wu, “Safety-Certified Consensus Control of Multi-Agent Systems Based on Finite-Time Control Barrier Function,” _2022 41th Chinese Control Conference (CCC)_, 2022, accepted. [[PDF]](https://ieeexplore.ieee.org/document/9554515)
  
   
 
