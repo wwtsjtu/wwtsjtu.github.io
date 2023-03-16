@@ -8,6 +8,7 @@ I am currently pursuing the Ph.D. degree (advised by Prof. [Weidong Zhang](https
 <br/>
 **E-mail:** wentao-wu@sjtu.edu.cn.
 <br/>
+**Social:**
 **[[Google Scholar]](https://scholar.google.com/citations?hl=zh-CN&user=WGp4lBIAAAAJ&scilu=&scisig=AMD79ooAAAAAZBKEqzX4SS0VplS3Iwcsir_OYM0PGOF2&gmla=AJsN-F4FNZCB9qFpDfAku3_c9PBPcRF7NjgmLRuiNVCUy7PgH9G5sLkmQc6vB2Og091hdWRYb_52xQBx_2CdRABEKBuW1Jp4N_QFvjCsBXsnI7osMXlJ1MQ&sciund=15343316673490356131)** &emsp; **[[ResearchGate]](https://www.researchgate.net/profile/Wu-Wentao-5)** &emsp; **[[Orcid]](https://orcid.org/0000-0002-3740-598X)** &emsp; **[[WOS]](https://www.webofscience.com/wos/author/record/ADK-2450-2022)**
 
   
@@ -20,7 +21,7 @@ I am currently pursuing the Ph.D. degree (advised by Prof. [Weidong Zhang](https
 
 
 ### Publications
-- Journal:
+- Journal papers (Published/Accepted):
 
   [1]	**W. Wu**, Z. Peng*, D. Wang, L. Liu, and Q.-L. Han*. "Network-Based Line-of-Sight Path Tracking of Underactuated Unmanned Surface Vehicles with Experiment Results." in _IEEE Transactions on Cybernetics_, vol. 52, no. 10, pp. 10937-10947, Oct. 2022. [中科院 1区, JCR 1区, Top, IF: 19.12] [[PDF]](https://ieeexplore.ieee.org/abstract/document/9440777)
   
