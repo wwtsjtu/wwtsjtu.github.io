@@ -4,13 +4,13 @@
 
 **Status:** Ph.D. Candiate (Advisor: Prof. [Weidong Zhang](https://automation.sjtu.edu.cn/wdzhang))
 <br/>
-Department of Automation at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/) (SJTU), Shanghai, China.
+**Institute:** [Department of Automation](https://automation.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/)
 <br/>
-**Address:** 2-205 SEIEE Building, No.800 Dongchuan Road, Shanghai, China, 200240
+**Address:** SEIEE-2-205, No.800 Dongchuan Road, Shanghai, China, 200240
 <br/>
 **Tel:** +86-178-2483-5106
 <br/>
-**Research Interests:** Marine surface vehicles, cooperative control, and safety-critical control
+**Research Interests:** Marine unmanned systems, cooperative control, game theorey, and safety-critical control
 <br/>
 **Social:**
  **[[E-mail]](wentao-wu@sjtu.edu.cn)** &emsp; **[[Google Scholar]](https://scholar.google.com/citations?hl=zh-CN&user=WGp4lBIAAAAJ&scilu=&scisig=AMD79ooAAAAAZBKEqzX4SS0VplS3Iwcsir_OYM0PGOF2&gmla=AJsN-F4FNZCB9qFpDfAku3_c9PBPcRF7NjgmLRuiNVCUy7PgH9G5sLkmQc6vB2Og091hdWRYb_52xQBx_2CdRABEKBuW1Jp4N_QFvjCsBXsnI7osMXlJ1MQ&sciund=15343316673490356131)** &emsp; **[[ResearchGate]](https://www.researchgate.net/profile/Wu-Wentao-5)** &emsp; **[[Orcid]](https://orcid.org/0000-0002-3740-598X)** &emsp; **[[WOS]](https://www.webofscience.com/wos/author/record/ADK-2450-2022)** 
@@ -43,7 +43,7 @@ Department of Automation at [Shanghai Jiao Tong University](https://www.sjtu.edu
   [8]	X. Ren, M. Li, Z. Liu, Z. Li, **W. Wu**, L. Bai, and W. Zhang*. "Curiosity-Driven Attention for Anomaly Road Obstacles Segmentation in Autonomous Driving." in _IEEE Transactions on Intelligent Vehicles_, 2022, doi: 10.1109/TIV.2022.3204714. [中科院 2区, JCR 1区, IF: 5.009] [[PDF]](https://ieeexplore.ieee.org/abstract/document/9878245)
 
 
-- Conference papers
+- Conference papers (Published/Accepted):
 
   [1] **W. Wu**, Y. Zhang, W. Zhang*, and D. Wu, “Safety-Certified Consensus Control of Multi-Agent Systems Based on Finite-Time Control Barrier Function,” _2022 41th Chinese Control Conference (CCC)_, IEEE, pp. 4661-4665, 2022. [[PDF]](https://ieeexplore.ieee.org/abstract/document/9902172)
   
