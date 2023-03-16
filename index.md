@@ -55,7 +55,6 @@ I am currently pursuing the Ph.D. degree (advised by Prof. [Weidong Zhang](https
 
 ## Academic Activities
 ### Journal Reviewer
-\cvsection{Academic Services}
 
 - _IEEE Transactions on Systems, Man and Cybernetics: Systems_
 - _IEEE/CAA Journal of Automatica Sinica_
