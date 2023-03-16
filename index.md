@@ -80,6 +80,5 @@ I am currently pursuing the Ph.D. degree (advised by Prof. [Weidong Zhang](https
  
  
 <br/>
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=400&t=tt&d=33rfvldNVUcycfQXDZFOyRp8Yqp-wB8RiOMqgHfUEfI'></script>
-
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=Qjr88jj3yLR3vUgrsFZcVE4IP3uD7Mjy-L3PxMqWH6k"></script>
 
