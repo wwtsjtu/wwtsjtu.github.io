@@ -1,6 +1,6 @@
 # Wentao Wu（吴文涛）
 
-<img src="https://raw.githubusercontent.com/wwtsjtu/wwtsjtu.github.io/main/img/1.jpeg" width="115" height="160" alt="" align="right" />
+<img src="https://raw.githubusercontent.com/wwtsjtu/wwtsjtu.github.io/img/1.jpeg" width="115" height="160" alt="" align="right" />
 I am currently pursuing the Ph.D. degree (advised by Prof. [Weidong Zhang](https://automation.sjtu.edu.cn/wdzhang) in Department of Automation at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/) (SJTU), Shanghai, China.
 <br/>
 **Research Interest:** Marine surface vehicles, cooperative control, and safety-critical control.
