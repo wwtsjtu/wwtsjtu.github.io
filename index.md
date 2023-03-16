@@ -53,6 +53,18 @@ I am currently pursuing the Ph.D. degree (advised by Prof. [Weidong Zhang](https
 - Outstanding Undergraduate, AUFE, 2018
 - National Scholarship for Bachelor Student, AUFE, 2015
 
+## Academic Activities
+### Journal Reviewer
+\cvsection{Academic Services}
+
+- _IEEE Transactions on Systems, Man and Cybernetics: Systems_
+- _IEEE/CAA Journal of Automatica Sinica_
+- _IEEE Internet of Things Journal_
+- _IEEE Transactions on Intelligent Vehicles_
+- _Ocean Engineering_
+- _Nonlinear Dynamics_
+- _自动化学报 (中文版)_
+
 <br/>
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=400&t=tt&d=33rfvldNVUcycfQXDZFOyRp8Yqp-wB8RiOMqgHfUEfI'></script>
 
