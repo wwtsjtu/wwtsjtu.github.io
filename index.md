@@ -5,7 +5,7 @@ title: John Doe
 
 # John Doe
 
-<img src="https://raw.githubusercontent.com/username/username.github.io/master/images/profile.jpg" width="200" height="200" alt="Profile picture of John Doe" />
+<img src="https://raw.githubusercontent.com/wwtsjtu/wwtsjtu.github.io/master/img/1.jpeg" width="200" height="200" alt="Profile picture of John Doe" />
 
 I am currently a postdoctoral researcher at XYZ University, working in the field of Computer Science. My research interests include machine learning, natural language processing, and data mining.
 
