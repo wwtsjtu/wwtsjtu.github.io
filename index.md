@@ -69,18 +69,12 @@ Special Ph.D. Scientific Research Foundation of Sanya Yazhou Bay Science and Tec
 
 - Journal Reviewer
 
-  IEEE Transactions on Systems, Man and Cybernetics: Systems
- 
-  IEEE/CAA Journal of Automatica Sinica
- 
-  IEEE Internet of Things Journal
- 
-  IEEE Transactions on Intelligent Vehicles
- 
-  Ocean Engineering
- 
-  Nonlinear Dynamics
- 
+  IEEE Transactions on Systems, Man and Cybernetics: Systems<br>
+  IEEE/CAA Journal of Automatica Sinica<br>
+  IEEE Internet of Things Journal<br>
+  IEEE Transactions on Intelligent Vehicles<br>
+  Ocean Engineering<br>
+  Nonlinear Dynamics<br> 
   自动化学报 (中文版)
 
 - Conference Reviewer
