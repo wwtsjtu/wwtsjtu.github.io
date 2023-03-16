@@ -1,6 +1,6 @@
 # Wentao Wu（吴文涛）
 
-<img src="https://raw.githubusercontent.com/wwtsjtu/wwtsjtu.github.io/master/img/1.jpeg" width="200" height="200" alt="Profile picture of John Doe" />
+<img src="https://raw.githubusercontent.com/wwtsjtu/wwtsjtu.github.io/master/img/1.jpeg" width="200" height="200" alt="" align= "right"/>
 
 I am currently pursuing the Ph.D. degree (advised by Prof. [Weidong Zhang](https://automation.sjtu.edu.cn/wdzhang) in Department of Automation at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/) (SJTU), Shanghai, China.
 <br/>
