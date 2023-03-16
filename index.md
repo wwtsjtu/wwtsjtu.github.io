@@ -7,7 +7,7 @@ I am currently pursuing the Ph.D. degree (advised by Prof. [Weidong Zhang](https
 <br/>
 **E-mail:** wentao-wu@sjtu.edu.cn.
 <br/>
-**[[Google Scholar]](https://scholar.google.com/citations?user=sPcpHncAAAAJ&hl=en)** &emsp; **[[ResearchGate]](https://www.researchgate.net/profile/Jie-Lin-61)** &emsp; **[[Orcid]](https://orcid.org/0000-0002-3740-598X)**
+**[[Google Scholar]](https://scholar.google.com/citations?user=sPcpHncAAAAJ&hl=en)** &emsp; **[[ResearchGate]](https://www.researchgate.net/profile/Wu-Wentao-5)** &emsp; **[[Orcid]](https://orcid.org/0000-0002-3740-598X)**
 
 
 ### Publication
