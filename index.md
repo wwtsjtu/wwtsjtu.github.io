@@ -44,16 +44,16 @@ I am currently pursuing the Ph.D. degree (advised by Prof. [Weidong Zhang](https
  
   
 
-### Award
+### Honor/Award
 
-- National Scholarship for Ph.D. Student, UESTC, 2022
-- Academic Rookie, UESTC, 2022
-- First-class Academic Scholarship, UESTC, 2021
-- Special Postgraduate Scholarship of Science, UESTC, 2020
-- Outstanding Undergraduate, AUFE, 2018
-- National Scholarship for Bachelor Student, AUFE, 2015
+- Liaoning Province Excellent Dissertation (No.LNYS202127), DLMU, 2021
+- National Scholarship for Postgraduate Student, DLMU, 2020
+- Outstanding Graduate of Dalian, DLMU, 2020
+- Outstanding Graduate of Dalian Maritime University, DLMU, 2020
+- National Third Prize of China Graduate Electronics Design Contest, DLMU, 2020
+- Provincial First Prize of China Graduate Electronics Design Contest (3 times from 2019), DLMU, 2020
 
-## Academic Activities
+
 ### Journal Reviewer
 
 - _IEEE Transactions on Systems, Man and Cybernetics: Systems_
