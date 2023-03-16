@@ -22,7 +22,7 @@ I am currently pursuing the Ph.D. degree (advised by Prof. [Weidong Zhang](https
 ### Publications
 - Journal:
 
-  [1]	**W. Wu**, Z. Peng*, D. Wang, L. Liu, and Q.-L. Han. "Network-Based Line-of-Sight Path Tracking of Underactuated Unmanned Surface Vehicles with Experiment Results." in _IEEE Transactions on Cybernetics_, vol. 52, no. 10, pp. 10937-10947, Oct. 2022. [中科院 1区, JCR 1区, Top, IF: 19.12] [[PDF]](https://ieeexplore.ieee.org/abstract/document/9440777)
+  [1]	**W. Wu**, Z. Peng*, D. Wang, L. Liu, and Q.-L. Han*. "Network-Based Line-of-Sight Path Tracking of Underactuated Unmanned Surface Vehicles with Experiment Results." in _IEEE Transactions on Cybernetics_, vol. 52, no. 10, pp. 10937-10947, Oct. 2022. [中科院 1区, JCR 1区, Top, IF: 19.12] [[PDF]](https://ieeexplore.ieee.org/abstract/document/9440777)
   
   [2]	**W. Wu**, Y. Zhang, W. Zhang*, and W. Xie. "Output-Feedback Finite-Time Safety-Critical Coordinated Control of Path-Guided Marine Surface Vehicles Based on Neurodynamic Optimization," in _IEEE Transactions on Systems, Man and Cybernetics: Systems_, vol. 53, no. 3, pp. 1788-1800, Sep. 2022. [中科院 1区, JCR 1区, Top, IF: 11.471] [[PDF]](https://ieeexplore.ieee.org/abstract/document/9900363)
   
@@ -43,9 +43,9 @@ I am currently pursuing the Ph.D. degree (advised by Prof. [Weidong Zhang](https
 
   [1] **W. Wu**, Y. Zhang, W. Zhang*, and D. Wu, “Safety-Certified Consensus Control of Multi-Agent Systems Based on Finite-Time Control Barrier Function,” _2022 41th Chinese Control Conference (CCC)_, IEEE, pp. 4661-4665, 2022. [[PDF]](https://ieeexplore.ieee.org/abstract/document/9902172)
   
-  [2] **W. Wu**, D. Wang, M. Lv, J. Jiang, L. Liu, and Z. Peng, “Event-triggered LOS Guidance for Path Following of an Unmanned Surface Vehicle over Wireless Network,” _2020 39th Chinese Control Conference (CCC)_, IEEE, pp. 4475-4480, 2022. [[PDF]](https://ieeexplore.ieee.org/abstract/document/9189015)
- 
- [3] Y. Zhang, **W. Wu**, D. Wu, Y. Wang, W. Zhang, "DSC-based Parallel Control for Consensus Maneuvering of Multi-agent Systems subject to Unmatched Uncertainties based on Distributed Nash Equilibrium Seeking,"2022 China Automation Congress (CAC)_, IEEE, pp. 1125-1130, 2022. [[PDF]](https://ieeexplore.ieee.org/abstract/document/10056005)
+  [2] **W. Wu**, D. Wang, M. Lv, J. Jiang, L. Liu, and Z. Peng*, “Event-triggered LOS Guidance for Path Following of an Unmanned Surface Vehicle over Wireless Network,” _2020 39th Chinese Control Conference (CCC)_, IEEE, pp. 4475-4480, 2022. [[PDF]](https://ieeexplore.ieee.org/abstract/document/9189015)
+  
+  [3] Y. Zhang, **W. Wu**, D. Wu, Y. Wang, W. Zhang*, "DSC-based Parallel Control for Consensus Maneuvering of Multi-agent Systems subject to Unmatched Uncertainties based on Distributed Nash Equilibrium Seeking," _2022 China Automation Congress (CAC)_, IEEE, pp. 1125-1130, 2022. [[PDF]](https://ieeexplore.ieee.org/abstract/document/10056005)
  
 ### Projects
 
