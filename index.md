@@ -8,16 +8,11 @@ Department of Automation at [Shanghai Jiao Tong University](https://www.sjtu.edu
 <br/>
 **Research Interest:** Marine surface vehicles, cooperative control, and safety-critical control
 <br/>
-**E-mail:** wentao-wu@sjtu.edu.cn.
-<br/>
-**Tel:** +86 178 2483 5106 
-<br/>
 **Address:** 2-205 SEIEE Building, No.800 Dongchuan Road, Shanghai, China, 200240
 <br/>
 **Social:**
-**[[Google Scholar]](https://scholar.google.com/citations?hl=zh-CN&user=WGp4lBIAAAAJ&scilu=&scisig=AMD79ooAAAAAZBKEqzX4SS0VplS3Iwcsir_OYM0PGOF2&gmla=AJsN-F4FNZCB9qFpDfAku3_c9PBPcRF7NjgmLRuiNVCUy7PgH9G5sLkmQc6vB2Og091hdWRYb_52xQBx_2CdRABEKBuW1Jp4N_QFvjCsBXsnI7osMXlJ1MQ&sciund=15343316673490356131)** &emsp; **[[ResearchGate]](https://www.researchgate.net/profile/Wu-Wentao-5)** &emsp; **[[Orcid]](https://orcid.org/0000-0002-3740-598X)** &emsp; **[[WOS]](https://www.webofscience.com/wos/author/record/ADK-2450-2022)**
+ **[[E-mail]](wentao-wu@sjtu.edu.cn)** &emsp; **[[Tel]](+86-178-2483-5106)** &emsp; **[[Google Scholar]](https://scholar.google.com/citations?hl=zh-CN&user=WGp4lBIAAAAJ&scilu=&scisig=AMD79ooAAAAAZBKEqzX4SS0VplS3Iwcsir_OYM0PGOF2&gmla=AJsN-F4FNZCB9qFpDfAku3_c9PBPcRF7NjgmLRuiNVCUy7PgH9G5sLkmQc6vB2Og091hdWRYb_52xQBx_2CdRABEKBuW1Jp4N_QFvjCsBXsnI7osMXlJ1MQ&sciund=15343316673490356131)** &emsp; **[[ResearchGate]](https://www.researchgate.net/profile/Wu-Wentao-5)** &emsp; **[[Orcid]](https://orcid.org/0000-0002-3740-598X)** &emsp; **[[WOS]](https://www.webofscience.com/wos/author/record/ADK-2450-2022)** 
 
-  
 
 ### Education
 
