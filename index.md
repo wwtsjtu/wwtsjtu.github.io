@@ -53,7 +53,7 @@
  
 ### Projects
 
-  **202201-202312** Coordination Control Technique of Unmanned Surface Vehicle Swarms for Ocean Ranch, _Hainan
+- **202201-202312** Coordination Control Technique of Unmanned Surface Vehicle Swarms for Ocean Ranch, _Hainan
 Special Ph.D. Scientific Research Foundation of Sanya Yazhou Bay Science and Technology City_ (HSPHDSRF-2022-01-007)
 
 ### Awards
