@@ -41,13 +41,15 @@ I am currently pursuing the Ph.D. degree (advised by Prof. [Weidong Zhang](https
 
 - Conference papers
 
-  [1] **W. Wu**, Y. Zhang, W. Zhang*, and D. Wu, “Safety-Certified Consensus Control of Multi-Agent Systems Based on Finite-Time Control Barrier Function,” _2022 41th Chinese Control Conference (CCC)_, pp. 4661-4665, 2022. [[PDF]](https://ieeexplore.ieee.org/abstract/document/9902172)
+  [1] **W. Wu**, Y. Zhang, W. Zhang*, and D. Wu, “Safety-Certified Consensus Control of Multi-Agent Systems Based on Finite-Time Control Barrier Function,” _2022 41th Chinese Control Conference (CCC)_, IEEE, pp. 4661-4665, 2022. [[PDF]](https://ieeexplore.ieee.org/abstract/document/9902172)
   
-  [1] **W. Wu**, D. Wang, M. Lv, J. Jiang, L. Liu, and Z. Peng, “Event-triggered LOS Guidance for Path Following of an Unmanned Surface Vehicle over Wireless Network,” _2020 39th Chinese Control Conference (CCC)_, pp. 4475-4480, 2022. [[PDF]](https://ieeexplore.ieee.org/abstract/document/9902172)
+  [2] **W. Wu**, D. Wang, M. Lv, J. Jiang, L. Liu, and Z. Peng, “Event-triggered LOS Guidance for Path Following of an Unmanned Surface Vehicle over Wireless Network,” _2020 39th Chinese Control Conference (CCC)_, IEEE, pp. 4475-4480, 2022. [[PDF]](https://ieeexplore.ieee.org/abstract/document/9189015)
+ 
+ [3] Y. Zhang, **W. Wu**, D. Wu, Y. Wang, W. Zhang, "DSC-based Parallel Control for Consensus Maneuvering of Multi-agent Systems subject to Unmatched Uncertainties based on Distributed Nash Equilibrium Seeking,"2022 China Automation Congress (CAC)_, IEEE, pp. 1125-1130, 2022. [[PDF]](https://ieeexplore.ieee.org/abstract/document/10056005)
  
 ### Projects
 
-**202201-202312** Coordination Control Technique of Unmanned Surface Vehicle Swarms for Ocean Ranch, _Hainan
+  **202201-202312** Coordination Control Technique of Unmanned Surface Vehicle Swarms for Ocean Ranch, _Hainan
 Special Ph.D. Scientific Research Foundation of Sanya Yazhou Bay Science and Technology City_ (HSPHDSRF-2022-01-007)
 
 ### Awards
