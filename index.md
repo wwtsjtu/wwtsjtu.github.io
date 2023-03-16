@@ -15,18 +15,6 @@ I am currently pursuing the Ph.D. degree (advised by Prof. [Weidong Zhang](https
 
   [1] **J. Lin**, T.-Z. Huang^, X.-L. Zhao^, Y. Chen, Q. Zhang, Q. Yuan, "Robust Thick Cloud Removal for Multi-Temporal Remote Sensing Images Using Coupled Tensor Factorization", _IEEE Transactions on Geoscience and Remote Sensing_, vol. 60, pp. 1-16, 2022, Art no. 5406916. [[PDF]](https://ieeexplore.ieee.org/document/9672204)
 
-  [2] **J. Lin**, T.-Z. Huang^, X.-L. Zhao^, T.-X. Jiang, L. Zhuang, "A Tensor Subspace Representation Based Method for Hyperspectral Image Denoising", _IEEE Transactions on Geoscience and Remote Sensing_, vol. 59, no. 9, pp. 7739-7757, 2021. [[PDF]](https://github.com/jielin96/jielin96.github.io/files/7084858/TenSRDe_Lin.pdf)  [[Code]](https://drive.google.com/file/d/14hXsvhxfevhQ2RG68Nl7TFaT7fOnm09X/view?usp=sharing)
-  
-  [3] **J. Lin**, T.-Z. Huang^, X.-L. Zhao, T.-H. Ma, T.-X. Jiang, Y.-B. Zheng, "A Novel Non-Convex Low-Rank Tensor Approximation Model for Hyperspectral Image Restoration", _Applied Mathematics and Computation_, vol. 408, pp. 126342, 2021. [[PDF]](https://github.com/jielin96/jielin96.github.io/files/6529346/1-s2.0-S0096300321004318-main.pdf)  [[Code]](https://drive.google.com/file/d/1LrNJsbGvuARaBs2yBrkHg0RIrAQxrwvV/view?usp=sharing)
-  
-  [4] S.-S. Xu, T.-Z. Huang^, **J. Lin**^, Y. Chen, "T-Hy-Demosaicing: Hyperspectral Reconstruction via Tensor Subspace Representation under Orthogonal Transformation", _IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing_, vol. 14, pp. 4842-4853, 2021. [[PDF]](https://github.com/jielin96/jielin96.github.io/files/6550740/JSTARS3076793.1.pdf)
-  
-  [5] Z.-Y. Chen, X.-L. Zhao^, **J. Lin**, Y. Chen, "Nonlocal-Based Tensor-Average-Rank Minimization and Tensor Transform-Sparsity for 3D Image Denoising", _Knowledge-Based Systems_, 2022. [[PDF]](https://www.sciencedirect.com/science/article/pii/S0950705122002647)
-  
-  [6] H. Li, X.-L. Zhao^, **J. Lin** and Y. Chen, "Low-Rank Tensor Optimization with Nonlocal Plug-and-Play Regularizers for Snapshot Compressive Imaging,"  _IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing_, vol. 15, pp. 581-593, 2021. [[PDF]](https://ieeexplore.ieee.org/document/9655474)
-  
-  [7] J. Huang^, W.-C. Di, J.-J. Wang, **J. Lin**, T.-Z. Huang, "Bilateral Joint-Sparse Regression for Hyperspectral Unmixing," _IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing_, vol. 14, pp. 10147-10161, 2021. [[PDF]](https://github.com/jielin96/jielin96.github.io/files/7415298/Bilateral_Joint-Sparse_Regression_for_Hyperspectral_Unmixing.pdf) 
-
 
 - Conference:
 
