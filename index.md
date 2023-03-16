@@ -56,25 +56,29 @@ I am currently pursuing the Ph.D. degree (advised by Prof. [Weidong Zhang](https
 
 ### Academic Activities:
 
--Journal Reviewer
+- Journal Reviewer
 
- IEEE Transactions on Systems, Man and Cybernetics: Systems
+  IEEE Transactions on Systems, Man and Cybernetics: Systems
  
- IEEE/CAA Journal of Automatica Sinica
+  IEEE/CAA Journal of Automatica Sinica
  
- IEEE Internet of Things Journal
+  IEEE Internet of Things Journal
  
- IEEE Transactions on Intelligent Vehicles
+  IEEE Transactions on Intelligent Vehicles
  
- Ocean Engineering
+  Ocean Engineering
  
- Nonlinear Dynamics
+  Nonlinear Dynamics
  
- 自动化学报 (中文版)
+  自动化学报 (中文版)
 
--Conference Reviewer
-
- ACC 2022; CCC 2023; CCDC 2022, 2023
+- Conference Reviewer
+ 
+  ACC 2022; CCC 2023; CCDC 2022, 2023
+ 
+ 
+ 
+ 
 <br/>
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=400&t=tt&d=33rfvldNVUcycfQXDZFOyRp8Yqp-wB8RiOMqgHfUEfI'></script>
 
