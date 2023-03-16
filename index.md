@@ -1,9 +1,9 @@
 # Wentao Wu（吴文涛）
 
 <img src="https://user-images.githubusercontent.com/84367087/119295670-f57bba00-bc89-11eb-96b2-1b12d1d3fef1.jpg" width = "224" height = "147" alt="" align=right />
-I am currently pursuing the Ph.D. degree (advised by Prof. [Weidong Zhang](https://automation.sjtu.edu.cn/wdzhang) in Department of Automation at [University of Electronic Science and Technology of China](https://www.uestc.edu.cn/) (UESTC), Chengdu, China.
+I am currently pursuing the Ph.D. degree (advised by Prof. [Weidong Zhang](https://automation.sjtu.edu.cn/wdzhang) in Department of Automation at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/) (SJTU), Shanghai, China.
 <br/>
-**Research Interest:** low-rank and sparse modeling, tensor decomposition, and high-dimensional image processing.
+**Research Interest:** Marine surface vehicles, cooperative control, and safety-critical control.
 <br/>
 **E-mail:** jielin96@126.com.
 <br/>
