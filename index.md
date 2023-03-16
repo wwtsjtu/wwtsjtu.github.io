@@ -15,12 +15,11 @@
 **Social:**
  **[[E-mail]](wentao-wu@sjtu.edu.cn)** &emsp; **[[Google Scholar]](https://scholar.google.com/citations?hl=zh-CN&user=WGp4lBIAAAAJ&scilu=&scisig=AMD79ooAAAAAZBKEqzX4SS0VplS3Iwcsir_OYM0PGOF2&gmla=AJsN-F4FNZCB9qFpDfAku3_c9PBPcRF7NjgmLRuiNVCUy7PgH9G5sLkmQc6vB2Og091hdWRYb_52xQBx_2CdRABEKBuW1Jp4N_QFvjCsBXsnI7osMXlJ1MQ&sciund=15343316673490356131)** &emsp; **[[ResearchGate]](https://www.researchgate.net/profile/Wu-Wentao-5)** &emsp; **[[Orcid]](https://orcid.org/0000-0002-3740-598X)** &emsp; **[[WOS]](https://www.webofscience.com/wos/author/record/ADK-2450-2022)** 
 
-
 ### Education
 
-- 09/2021-Current: Shanghai Jiao Tong University (SJTU); Eng. D. student in Department of Automation (Supervisor: Prof. Weidong Zhang)
-- 09/2018-06/2021: Dalian Maritime University (DLMU); Master student in Mathematics (Supervisors: Prof. Dan Wang and Prof. Zhouhua Peng)
-- 09/2014-06/2018: Harbin University of Science and Technology (HUST); Bachelor student in Electrical Engineering and Automation
+- 09/2021-Current: Eng. D. in Shanghai Jiao Tong University (SJTU); (Advisor: Prof.[Weidong Zhang](https://automation.sjtu.edu.cn/wdzhang))
+- 09/2018-06/2021: M.S. in Electrical Engineering, Dalian Maritime University (DLMU) (Advisors: Prof. [Dan Wang](https://scholar.google.com/citations?user=kc8gnlMAAAAJ&hl=zh-CN) and Prof. [Zhouhua Peng](https://scholar.google.com/citations?user=hM_5JDYAAAAJ&hl=zh-CN))
+- 09/2014-06/2018: B.S. in Electrical Engineering and Automation, Harbin University of Science and Technology (HUST)
 
 
 ### Publications
