@@ -23,19 +23,12 @@ I am currently pursuing the Ph.D. degree (advised by Prof. [Weidong Zhang](https
   [2] M. Ding, T.-Z. Huang, X.-L. Zhao, **J. Lin**, J.-H. Yang, "Factor-Regularized Nonnegative Tensor Decomposition for Blind Hyperspectral Unmixing", _IEEE International Geoscience and Remote Sensing Symposium_, 2021. [[PDF]](https://ieeexplore.ieee.org/document/9554525)
   
   
-### Report
-
-- 11/2022: “Robust Thick Cloud Removal for Multi-Temporal Remote Sensing Images Using Coupled Tensor Factorization”, CSIAM 2022, Online, China, [[Slides]](https://github.com/jielin96/jielin96.github.io/files/10049129/CSIAM2022.pdf)
-- 10/2021: “A Tensor Subspace Representation Based Method for Hyperspectral Image Denoising”, CSIAM 2021, Hefei, China, [[Slides]](https://github.com/jielin96/jielin96.github.io/files/7766871/CSIAM_Hefei.pdf)
-- 07/2021: “A Blind Cloud/Shadow Removal Strategy for Multi-Temporal Remote Sensing Images”, IGARSS 2021, Online, [[Slides]](https://github.com/jielin96/jielin96.github.io/files/7766873/IGARSS.2.pdf)
-
-  
 
 ### Education
 
-- 09/2020-Current: University of Electronic Science and Technology of China (UESTC); Ph. D. student in Mathematics (Supervisor: Prof. Ting-Zhu Huang)
-- 09/2018-06/2020: University of Electronic Science and Technology of China (UESTC); Master student in Mathematics (Supervisor: Prof. Ting-Zhu Huang)
-- 09/2014-06/2018: Anhui University of Finance and Economics (AUFE); Bachelor student in Information and Computing Science
+- 09/2021-Current: Shanghai Jiao Tong University (SJTU); Eng. D. student in Department of Automation (Supervisor: Prof. Weidong Zhang)
+- 09/2018-06/2021: Dalian Maritime University (DLMU); Master student in Mathematics (Supervisors: Prof. Dan Wang and Prof. Zhouhua Peng)
+- 09/2014-06/2018: Harbin University of Science and Technology (HUST); Bachelor student in Electrical Engineering and Automation
 
 
 ### Award
