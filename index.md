@@ -53,8 +53,10 @@
  
 ### Projects
 
-- **202201-202312** Coordination Control Technique of Unmanned Surface Vehicle Swarms for Ocean Ranch, _Hainan
-Special Ph.D. Scientific Research Foundation of Sanya Yazhou Bay Science and Technology City_ (HSPHDSRF-2022-01-007)
+- **202201-202312** Coordination Control Technique of Unmanned Surface Vehicle Swarms for Ocean Ranch _[Hainan
+Special Ph.D. Scientific Research Foundation of Sanya Yazhou Bay Science and Technology City]_ [Host](HSPHDSRF-2022-01-007)
+- **202201-202612**  Research on Intelligent Cooperative Control Decision Method of Unmanned Surface Vessel Swarms under Complex Tasks _[National Natural Science Foundation of China]_ [Participate](U2141234)
+- **202106-202306** Key Technology of Air-Sea Cross-Domain Autonomous Coordination System for Mar- itime Search And Rescue, _[Hainan Province Science and Technology Special Fund]_ [Participate](ZDYF2021GXJS041) 
 
 ### Awards
 
