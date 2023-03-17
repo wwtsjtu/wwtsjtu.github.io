@@ -57,29 +57,31 @@
 Special Ph.D. Scientific Research Foundation of Sanya Yazhou Bay Science and Technology City_ (HSPHDSRF-2022-01-007)
 
 ### Awards
-#### DLMU
-- Liaoning Province Excellent Dissertation &emsp;_**No.LNYS202127**_  <span style="float: right">2021</span>
-- National Scholarship for Postgraduate Student <span style="float: right">2021</span>
-- Outstanding Graduate of Dalian  <span style="float: right">2021</span>
-- Outstanding Graduate of Dalian Maritime University <span style="float: right">2021</span>
-- National Third Prize of China Graduate Electronics Design Contest <span style="float: right">2021</span>
-- Provincial First Prize of China Graduate Electronics Design Contest (3 times from 2019) <span style="float: right">2021</span>
+
+- Liaoning Province Excellent Dissertation &emsp;_**No.LNYS202127**_  <span style="float: right">DLMU_2021</span>
+- National Scholarship for Postgraduate Student <span style="float: right">DLMU_2020</span>
+- Outstanding Graduate of Dalian  <span style="float: right">DLMU_2020</span>
+- Outstanding Graduate of Dalian Maritime University <span style="float: right">DLMU_2020</span>
+- National Third Prize of China Graduate Electronics Design Contest <span style="float: right">DLMU_2020</span>
+- Provincial First Prize of China Graduate Electronics Design Contest (3 times from 2019) <span style="float: right">DLMU_2020</span>
 
 
 ### Services
 
-- Journal Reviewer
+#### Journal Reviewer
 
-  IEEE Transactions on Systems, Man and Cybernetics: Systems<br>
-  IEEE/CAA Journal of Automatica Sinica (English and Chinese versions)<br>
-  IEEE Internet of Things Journal<br>
-  IEEE Transactions on Intelligent Vehicles<br>
-  Ocean Engineering<br>
-  Nonlinear Dynamics<br> 
+- IEEE Transactions on Systems, Man and Cybernetics: Systems<br>
+- IEEE/CAA Journal of Automatica Sinica (English and Chinese versions)<br>
+- IEEE Internet of Things Journal<br>
+- IEEE Transactions on Intelligent Vehicles<br>
+- Ocean Engineering<br>
+- Nonlinear Dynamics<br> 
 
-- Conference Reviewer
+#### Conference Reviewer
  
-  ACC 2022; CCC 2023; CCDC 2022, 2023
+- ACC 2022
+- CCC 2023
+- CCDC 2022, 2023
  
  
 
