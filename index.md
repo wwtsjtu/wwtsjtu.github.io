@@ -57,13 +57,13 @@
 Special Ph.D. Scientific Research Foundation of Sanya Yazhou Bay Science and Technology City_ (HSPHDSRF-2022-01-007)
 
 ### Awards
-
-- Liaoning Province Excellent Dissertation (No.LNYS202127)  <span style="float: right">DLMU-2021</span>
-- National Scholarship for Postgraduate Student <span style="float: right">DLMU-2021</span>
-- Outstanding Graduate of Dalian  <span style="float: right">DLMU-2021</span>
-- Outstanding Graduate of Dalian Maritime University <span style="float: right">DLMU-2021</span>
-- National Third Prize of China Graduate Electronics Design Contest <span style="float: right">DLMU-2021</span>
-- Provincial First Prize of China Graduate Electronics Design Contest (3 times from 2019) <span style="float: right">DLMU-2021</span>
+#### DLMU
+- Liaoning Province Excellent Dissertation (No.LNYS202127)  <span style="float: right">2021</span>
+- National Scholarship for Postgraduate Student <span style="float: right">2021</span>
+- Outstanding Graduate of Dalian  <span style="float: right">2021</span>
+- Outstanding Graduate of Dalian Maritime University <span style="float: right">2021</span>
+- National Third Prize of China Graduate Electronics Design Contest <span style="float: right">2021</span>
+- Provincial First Prize of China Graduate Electronics Design Contest (3 times from 2019) <span style="float: right">2021</span>
 
 
 ### Services
