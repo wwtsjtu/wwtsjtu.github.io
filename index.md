@@ -58,12 +58,12 @@ Special Ph.D. Scientific Research Foundation of Sanya Yazhou Bay Science and Tec
 
 ### Awards
 
-- 2021 Liaoning Province Excellent Dissertation (No.LNYS202127), DLMU
-- 2020 National Scholarship for Postgraduate Student, DLMU
-- 2020 Outstanding Graduate of Dalian, DLMU, 2020
-- 2020 Outstanding Graduate of Dalian Maritime University, DLMU
-- 2020 National Third Prize of China Graduate Electronics Design Contest, DLMU
-- 2020 Provincial First Prize of China Graduate Electronics Design Contest (3 times from 2019), DLMU
+- Liaoning Province Excellent Dissertation (No.LNYS202127)  <span style="float: right">DLMU-2021</span>
+- National Scholarship for Postgraduate Student <span style="float: right">DLMU-2021</span>
+- Outstanding Graduate of Dalian  <span style="float: right">DLMU-2021</span>
+- Outstanding Graduate of Dalian Maritime University <span style="float: right">DLMU-2021</span>
+- National Third Prize of China Graduate Electronics Design Contest <span style="float: right">DLMU-2021</span>
+- Provincial First Prize of China Graduate Electronics Design Contest (3 times from 2019) <span style="float: right">DLMU-2021</span>
 
 
 ### Services
@@ -71,7 +71,7 @@ Special Ph.D. Scientific Research Foundation of Sanya Yazhou Bay Science and Tec
 - Journal Reviewer
 
   IEEE Transactions on Systems, Man and Cybernetics: Systems<br>
-  IEEE/CAA Journal of Automatica Sinica ( English and Chinese versions)<br>
+  IEEE/CAA Journal of Automatica Sinica (English and Chinese versions)<br>
   IEEE Internet of Things Journal<br>
   IEEE Transactions on Intelligent Vehicles<br>
   Ocean Engineering<br>
