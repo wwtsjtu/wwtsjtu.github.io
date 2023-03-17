@@ -24,6 +24,8 @@
 - B.S. in Electrical Engineering and Automation [Harbin University of Science and Technology](http://www.hrbust.edu.cn/)
 <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;09/2014-06/2018
 
+左对齐文本<span style="float: right;">右对齐文本</span>
+
 ### Publications
 - Journal papers (Published/Accepted):
 
