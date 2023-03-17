@@ -58,7 +58,7 @@ Special Ph.D. Scientific Research Foundation of Sanya Yazhou Bay Science and Tec
 
 ### Awards
 #### DLMU
-- Liaoning Province Excellent Dissertation (No.LNYS202127)  <span style="float: right">2021</span>
+- Liaoning Province Excellent Dissertation &emsp;**_No.LNYS202127_**  <span style="float: right">2021</span>
 - National Scholarship for Postgraduate Student <span style="float: right">2021</span>
 - Outstanding Graduate of Dalian  <span style="float: right">2021</span>
 - Outstanding Graduate of Dalian Maritime University <span style="float: right">2021</span>
