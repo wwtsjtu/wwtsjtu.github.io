@@ -19,10 +19,10 @@
 
 - Ph. D. in Electronic Information [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/)<span style="float: right">09/2021-Current</span>
   <br>Advisor: Prof. [Weidong Zhang](https://automation.sjtu.edu.cn/wdzhang)
-- M.S. in Electrical Engineering [Dalian Maritime University](https://www.dlmu.edu.cn/)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;09/2018-06/2021
+- M.S. in Electrical Engineering [Dalian Maritime University](https://www.dlmu.edu.cn/)<span style="float: right">09/2018-06/2021</span>
   <br>Advisors: Prof. [Dan Wang](https://scholar.google.com/citations?user=kc8gnlMAAAAJ&hl=zh-CN) and Prof. [Zhouhua Peng](https://scholar.google.com/citations?user=hM_5JDYAAAAJ&hl=zh-CN)
 - B.S. in Electrical Engineering and Automation [Harbin University of Science and Technology](http://www.hrbust.edu.cn/)
-<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;09/2014-06/2018
+<br><span style="float: right">09/2014-06/2018</span>
 
 ### Publications
 - Journal papers (Published/Accepted):
