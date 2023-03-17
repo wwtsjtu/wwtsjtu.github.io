@@ -1,3 +1,10 @@
+<style>
+.reference {
+  text-align: justify;
+  text-justify: inter-word;
+}
+</style>
+
 # Wentao Wu
 
 <img src="https://raw.githubusercontent.com/wwtsjtu/wwtsjtu.github.io/master/img/1.jpeg" width="120" height="165" alt="" align= "right"/>
@@ -26,6 +33,9 @@
 ### Publications
 - Journal papers (Published/Accepted):
 
+<div class="reference">
+ [1] **W. Wu**, Z. Peng, D. Wang, L. Liu, and Q.-L. Han. "[Network-Based Line-of-Sight Path Tracking of Underactuated Unmanned Surface Vehicles with Experiment Results](https://ieeexplore.ieee.org/abstract/document/9440777)." in _[IEEE Trans. Cybern.](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036)_, vol. 52, no. 10, pp. 10937-10947, Oct. 2022. [中科院 1区, JCR 1区, Top, IF: 19.12] [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9440777)
+</div>
   [1] **W. Wu**, Z. Peng, D. Wang, L. Liu, and Q.-L. Han. "[Network-Based Line-of-Sight Path Tracking of Underactuated Unmanned Surface Vehicles with Experiment Results](https://ieeexplore.ieee.org/abstract/document/9440777)." in _[IEEE Trans. Cybern.](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036)_, vol. 52, no. 10, pp. 10937-10947, Oct. 2022. [中科院 1区, JCR 1区, Top, IF: 19.12] [[PDF]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9440777)
   <br>
   [2]	**W. Wu**, Y. Zhang, W. Zhang, and W. Xie. "[Output-Feedback Finite-Time Safety-Critical Coordinated Control of Path-Guided Marine Surface Vehicles Based on Neurodynamic Optimization](https://ieeexplore.ieee.org/abstract/document/9900363)." in _[IEEE Trans. Syst. Man, Cybern., Syst.](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221021)_, vol. 53, no. 3, pp. 1788-1800, Sep. 2022. [中科院 1区, JCR 1区, Top, IF: 11.471] [[PDF]](https://ieeexplore.ieee.org/abstract/document/9900363)
