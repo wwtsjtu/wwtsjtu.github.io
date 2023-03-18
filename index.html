@@ -162,101 +162,54 @@
             <div class="main-post-list hidden">
   
 
-
 <ol class="post-list">
   <!-- 目录 -->
   <li>
     <h2 class="post-list__post-title post-title"><a href="#">[Menu]</a></h2>
     <ul>
+      <!-- 主页 -->
+      <li><a href="#education">Home</a></li>
+      
       <!-- 教育 -->
-      <li>
-        <a href="#education">Education</a>
-      </li>
+      <li><a href="#education">Education</a></li>
+      
       <!-- 出版物分类 -->
       <li>
         <a href="#periodical">Publications</a>
-        <ul style="display:none">
+        <ul class="sub-menu">
           <li><a href="#periodical1">Journal Papers</a></li>
           <li><a href="#periodical2">Conference Papers</a></li>
         </ul>
       </li>
+      
       <!-- 项目分类 -->
       <li>
         <a href="#project">Projects</a>
-        <ul style="display:none">
-          <li><a href="#periodical1">Host</a></li>
-          <li><a href="#periodical2">Participate</a></li>
+        <ul class="sub-menu">
+          <li><a href="#project1">Host</a></li>
+          <li><a href="#project2">Participate</a></li>
         </ul>
       </li>
+      
       <!-- 获奖分类 -->
-      <li>
-        <a href="#project">Awards</a>
-      </li>
+      <li><a href="#awards">Awards</a></li>
+      
       <!-- 社会服务 -->
       <li>
-        <a href="#project">Services</a>
-        <ul style="display:none">
-          <li><a href="#periodical1">Journal Reviewer</a></li>
-          <li><a href="#periodical2">Conference Reviewer</a></li>
+        <a href="#services">Services</a>
+        <ul class="sub-menu">
+          <li><a href="#services1">Journal Reviewer</a></li>
+          <li><a href="#services2">Conference Reviewer</a></li>
         </ul>
       </li>
 
     </ul>
-    <hr class="post-list__divider" />
-  </li>
-
-  <!-- 教育分类 -->
-  <li>
-    <h2 class="post-list__post-title post-title" id="education"><a href="#">[教育]</a></h2>
-    <p class="excerpt">这里是教育分类的文章列表。</p>
-    <hr class="post-list__divider" />
-  </li>
-
-  <!-- 期刊分类 -->
-  <li>
-    <h2 class="post-list__post-title post-title" id="periodical"><a href="#">[期刊]</a></h2>
-    <ul style="display:none">
-      <li><a href="#periodical1">期刊1</a></li>
-      <li><a href="#periodical2">期刊2</a></li>
-    </ul>
-    <p class="excerpt">这里是期刊分类的文章列表。</p>
-    <hr class="post-list__divider" />
-  </li>
-
-  <!-- 期刊1子分类 -->
-  <li>
-    <h2 class="post-list__post-title post-title" id="periodical1"><a href="#">[期刊1]</a></h2>
-    <p class="excerpt">这里是期刊1子分类的文章列表。</p>
-    <hr class="post-list__divider" />
-  </li>
-
-  <!-- 期刊2子分类 -->
-  <li>
-    <h2 class="post-list__post-title post-title" id="periodical2"><a href="#">[期刊2]</a></h2>
-    <p class="excerpt">这里是期刊2子分类的文章列表。</p>
-    <hr class="post-list__divider" />
-  </li>
-
-  <!-- 项目分类 -->
-  <li>
-    <h2 class="post-list__post-title post-title" id="project"><a href="#">[项目]</a></h2>
-    <p class="excerpt">这里是项目分类的文章列表。</p>
     <hr class="post-list__divider" />
   </li>
 </ol>
 
-<script>
-  // 给目录添加点击事件，控制子目录的显示与隐藏
-  const directories = document.querySelectorAll('.post-list__post-title');
-  directories.forEach(directory => {
-    directory.addEventListener('click', () => {
-      const subDirectory = directory.nextElementSibling;
-      if (subDirectory) {
-        subDirectory.style.display = subDirectory.style.display === 'none' ? 'block' : 'none';
-      }
-    });
-  });
-</script>
+
+
 
 
 
