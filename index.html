@@ -165,14 +165,15 @@
 <ol class="post-list">
   <!-- 目录 -->
   <li>
-    <a href="#Menu">[Menu]</a>
+    <a href="#">[Menu]</a>
       <!-- 主页 -->
       <li><a href="#education">Home</a></li>
       <!-- 教育 -->
       <li><a href="#education">Education</a></li>
       <!-- 出版物分类 -->
       <li>
-        <a href="#periodical">Publications</a>
+        <h2 class="post-list__post-title post-title" id="periodical"><a href="#publications">Publications</a></h2>
+        <p class="excerpt">这里是期刊分类的文章列表。</p>
         <ul style="display:none">
           <li><a href="#periodical1">Journal Papers</a></li>
           <li><a href="#periodical2">Conference Papers</a></li>
@@ -185,6 +186,7 @@
           <li><a href="#project1">Host</a></li>
           <li><a href="#project2">Participate</a></li>
         </ul>
+        <hr class="post-list__divider" />
       </li>
       <!-- 获奖分类 -->
       <li><a href="#awards">Awards</a></li>
@@ -199,31 +201,6 @@
   </li>
 </ol>
 
-
-  <!-- 教育分类 -->
-  <li>
-    <h2 class="post-list__post-title post-title" id="education"><a href="#">[教育]</a></h2>
-    <p class="excerpt">这里是教育分类的文章列表。</p>
-    <hr class="post-list__divider" />
-  </li>
-
-  <!-- 期刊分类 -->
-  <li>
-    <h2 class="post-list__post-title post-title" id="periodical"><a href="#">[期刊]</a></h2>
-    <ul style="display:none">
-      <li><a href="#periodical1">期刊1</a></li>
-      <li><a href="#periodical2">期刊2</a></li>
-    </ul>
-    <p class="excerpt">这里是期刊分类的文章列表。</p>
-    <hr class="post-list__divider" />
-  </li>
-  <!-- 项目分类 -->
-  <li>
-    <h2 class="post-list__post-title post-title" id="project"><a href="#">[项目]</a></h2>
-    <p class="excerpt">这里是项目分类的文章列表。</p>
-    <hr class="post-list__divider" />
-  </li>
-</ol>
 
 <script>
   // 给目录添加点击事件，控制子目录的显示与隐藏
