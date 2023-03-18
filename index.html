@@ -168,54 +168,71 @@
   <li>
     <h2 class="post-list__post-title post-title"><a href="#">[目录]</a></h2>
     <ul>
-      <li>
-        <a href="#education">教育</a>
-      </li>
+      <li><a href="#education">教育</a></li>
       <li>
         <a href="#periodical">期刊</a>
-        <ul>
+        <ul style="display:none">
           <li><a href="#periodical1">期刊1</a></li>
           <li><a href="#periodical2">期刊2</a></li>
         </ul>
       </li>
-      <li>
-        <a href="#project">项目</a>
-      </li>
+      <li><a href="#project">项目</a></li>
     </ul>
     <hr class="post-list__divider" />
   </li>
 
   <!-- 教育分类 -->
-  <li id="education">
-    <h2 class="post-list__post-title post-title"><a href="#">[教育]</a></h2>
+  <li>
+    <h2 class="post-list__post-title post-title" id="education"><a href="#">[教育]</a></h2>
     <p class="excerpt">这里是教育分类的文章列表。</p>
     <hr class="post-list__divider" />
   </li>
 
   <!-- 期刊分类 -->
   <li>
-    <h2 class="post-list__post-title post-title"><a href="#periodical">[期刊]</a></h2>
-    <ul>
-      <li id="periodical1">
-        <h3 class="post-list__post-title post-title"><a href="#">[期刊1]</a></h3>
-        <p class="excerpt">这里是期刊1子分类的文章列表。</p>
-        <hr class="post-list__divider" />
-      </li>
-      <li id="periodical2">
-        <h3 class="post-list__post-title post-title"><a href="#">[期刊2]</a></h3>
-        <p class="excerpt">这里是期刊2子分类的文章列表。</p>
-        <hr class="post-list__divider" />
-      </li>
+    <h2 class="post-list__post-title post-title" id="periodical"><a href="#">[期刊]</a></h2>
+    <ul style="display:none">
+      <li><a href="#periodical1">期刊1</a></li>
+      <li><a href="#periodical2">期刊2</a></li>
     </ul>
+    <p class="excerpt">这里是期刊分类的文章列表。</p>
+    <hr class="post-list__divider" />
+  </li>
+
+  <!-- 期刊1子分类 -->
+  <li>
+    <h2 class="post-list__post-title post-title" id="periodical1"><a href="#">[期刊1]</a></h2>
+    <p class="excerpt">这里是期刊1子分类的文章列表。</p>
+    <hr class="post-list__divider" />
+  </li>
+
+  <!-- 期刊2子分类 -->
+  <li>
+    <h2 class="post-list__post-title post-title" id="periodical2"><a href="#">[期刊2]</a></h2>
+    <p class="excerpt">这里是期刊2子分类的文章列表。</p>
+    <hr class="post-list__divider" />
   </li>
 
   <!-- 项目分类 -->
-  <li id="project">
-    <h2 class="post-list__post-title post-title"><a href="#">[项目]</a></h2>
+  <li>
+    <h2 class="post-list__post-title post-title" id="project"><a href="#">[项目]</a></h2>
     <p class="excerpt">这里是项目分类的文章列表。</p>
     <hr class="post-list__divider" />
   </li>
 </ol>
+
+<script>
+  // 给目录添加点击事件，控制子目录的显示与隐藏
+  const directories = document.querySelectorAll('.post-list__post-title');
+  directories.forEach(directory => {
+    directory.addEventListener('click', () => {
+      const subDirectory = directory.nextElementSibling;
+      if (subDirectory) {
+        subDirectory.style.display = subDirectory.style.display === 'none' ? 'block' : 'none';
+      }
+    });
+  });
+</script>
 
 
 
