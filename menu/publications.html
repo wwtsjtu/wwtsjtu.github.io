@@ -184,6 +184,42 @@
 
     <br/><br/>
     <h1 class="post-title" style="text-align: center;">[Publications]</h1>
+<ul>
+  <li>
+    <ul>
+      <li>
+        Journal
+        <ul style="display:none">
+          <li>Paper 1</li>
+          <li>Paper 2</li>
+        </ul>
+      </li>
+      <li>
+        Conference
+        <ul style="display:none">
+          <li>Article 1</li>
+          <li>Article 2</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<script>
+  // 获取所有带有子菜单的列表项
+  const parentItems = document.querySelectorAll("ul > li > ul");
+  
+  // 为每个列表项添加点击事件处理函数
+  parentItems.forEach(parent => {
+    const title = parent.previousElementSibling;
+    title.style.cursor = "pointer";
+    title.addEventListener("click", () => {
+      const child = parent.querySelector("ul");
+      child.style.display = child.style.display === "none" ? "block" : "none";
+    });
+  });
+</script>
+
 </header>
 
 <section class="post">
