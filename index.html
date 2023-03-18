@@ -165,9 +165,7 @@
 <ol class="post-list">
   <!-- 目录 -->
   <li>
-    <h2 class="post-list__post-title post-title"><a href="#">[Menu]</a></h2>
-
-    <ul>
+    <a href="#Menu">[Menu]</a>
       <!-- 主页 -->
       <li><a href="#education">Home</a></li>
       <!-- 教育 -->
@@ -198,11 +196,34 @@
           <li><a href="#services2">Conference Reviewer</a></li>
         </ul>
       </li>
-    </ul>
-    <hr class="post-list__divider" />
   </li>
 </ol>
 
+
+  <!-- 教育分类 -->
+  <li>
+    <h2 class="post-list__post-title post-title" id="education"><a href="#">[教育]</a></h2>
+    <p class="excerpt">这里是教育分类的文章列表。</p>
+    <hr class="post-list__divider" />
+  </li>
+
+  <!-- 期刊分类 -->
+  <li>
+    <h2 class="post-list__post-title post-title" id="periodical"><a href="#">[期刊]</a></h2>
+    <ul style="display:none">
+      <li><a href="#periodical1">期刊1</a></li>
+      <li><a href="#periodical2">期刊2</a></li>
+    </ul>
+    <p class="excerpt">这里是期刊分类的文章列表。</p>
+    <hr class="post-list__divider" />
+  </li>
+  <!-- 项目分类 -->
+  <li>
+    <h2 class="post-list__post-title post-title" id="project"><a href="#">[项目]</a></h2>
+    <p class="excerpt">这里是项目分类的文章列表。</p>
+    <hr class="post-list__divider" />
+  </li>
+</ol>
 
 <script>
   // 给目录添加点击事件，控制子目录的显示与隐藏
