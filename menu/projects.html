@@ -340,7 +340,7 @@
         <span>+</span>
       </div>
       <!-- 表格内容 -->
-      <div class="project-content" id="project-content">
+      <div class="project-content" id="project-content-1">
         <div class="project-details">
           <span class="project-name">Funding Source:</span>
           <span class="project-value"><strong>Hainan Province Science and Technology Special Fund (ZDYF2021GXJS041)</strong></span>
@@ -369,7 +369,7 @@
         <span>+</span>
       </div>
       <!-- 表格内容 -->
-      <div class="project-content" id="project-content">
+      <div class="project-content" id="project-content-2">
         <div class="project-details">
           <span class="project-name">Funding Source:</span>
           <span class="project-value"><strong>Hainan Province Science and Technology Special Fund (ZDYF2021GXJS041)</strong></span>
@@ -398,7 +398,7 @@
         <span>+</span>
       </div>
       <!-- 表格内容 -->
-      <div class="project-content" id="project-content">
+      <div class="project-content" id="project-content-3">
         <div class="project-details">
           <span class="project-name">Funding Source:</span>
           <span class="project-value"><strong>Hainan Province Science and Technology Special Fund (ZDYF2021GXJS041)</strong></span>
@@ -424,18 +424,29 @@
 
 <!-- JavaScript 代码 -->  
 <script>
-  function toggleProject() {
-    var tableContent = document.getElementById("project-content");
-    var expandButton = document.querySelector(".project-header span:last-of-type");
-    if (tableContent.style.display === "none") {
-      tableContent.style.display = "block";
-      expandButton.textContent = "-";
-    } else {
-      tableContent.style.display = "none";
-      expandButton.textContent = "+";
-    }
+  // 获取所有的表格主体
+  var projectContents = document.querySelectorAll(".project-content");
+  
+  // 遍历所有的表格主体
+  for (var i = 0; i < projectContents.length; i++) {
+    // 获取当前表格的ID和展开/收缩按钮
+    var projectId = "project-content-" + (i+1);
+    var tableContent = document.getElementById(projectId);
+    var expandButton = projectContents[i].previousElementSibling;
+    
+    // 为展开/收缩按钮添加事件监听器
+    expandButton.addEventListener("click", function() {
+      if (tableContent.style.display === "none") {
+        tableContent.style.display = "block";
+        expandButton.textContent = "-";
+      } else {
+        tableContent.style.display = "none";
+        expandButton.textContent = "+";
+      }
+    });
   }
 </script>
+
 
 
 
