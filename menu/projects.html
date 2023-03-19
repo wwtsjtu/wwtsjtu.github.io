@@ -291,6 +291,8 @@
     align-items: center;
     padding: 8px;
     border-bottom: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+    color: #555;
   }
 
   /* 表格内容样式 */
@@ -298,6 +300,8 @@
     display: none;
     padding: 10px;
     border-bottom: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+    color: #333;
   }
 
   .project-details {
@@ -315,6 +319,8 @@
 
   .project-details strong {
     text-align: left;
+    font-weight: normal;
+    color: #666;
   }
 
   .projects li {
@@ -327,23 +333,21 @@
     background-color: #f0f0f0;
   }
 </style>
-
 <!-- 主持项目 -->
 <br/>
 <blockquote class="projects">
   <ul>
     <li>
       <!-- 表格标题 -->
-      <div class="project-header" > <!-- onclick="toggleProject()" 取消点击折叠 --> 
-        <span> Key Technology of Air-Sea Cross-Domain Autonomous Coordination System for Maritime Search And Rescue 
-        </span>
-        <span>+</span>
+      <div class="project-header" onclick="toggleProject()" > 
+        <span style="color: #333;"> Coordination Control Technique of Unmanned Surface Vehicle Swarms for Ocean Ranch </span>
+        <span style="font-size: 1.5em; color: #777;">+</span>
       </div>
       <!-- 表格内容 -->
       <div class="project-content" id="project-content">
         <div class="project-details">
           <span class="project-name">Funding Source:</span>
-          <span class="project-value"><strong>Hainan Province Science and Technology Special Fund (ZDYF2021GXJS041)</strong></span>
+          <span class="project-value"><strong>Hainan Special Ph.D. Scientific Research Foundation of Sanya Yazhou Bay Science and Technology City (HSPHDSRF-2022-01-007)</strong></span>
         </div>
         <!-- 
         <div class="project-details">
@@ -357,42 +361,12 @@
         </div>
         <div class="project-details">
           <span class="project-name">State Date:</span>
-          <span class="project-value">2022.01</span>
-        </div>
-      </div>
-    </li>
-    <li>
-      <!-- 表格标题 -->
-      <div class="project-header">
-        <span> Key Technology of Air-Sea Cross-Domain Autonomous Coordination System for Maritime Search And Rescue 
-        </span>
-        <span>+</span>
-      </div>
-      <!-- 表格内容 -->
-      <div class="project-content" id="project-content">
-        <div class="project-details">
-          <span class="project-name">Funding Source:</span>
-          <span class="project-value"><strong>Hainan Province Science and Technology Special Fund (ZDYF2021GXJS041)</strong></span>
-        </div>
-        <!-- 
-        <div class="project-details">
-          <span class="project-name">Award Amount:</span>
-          <span class="project-value">50,000 CNY</span>
-        </div> 
-        -->
-        <div class="project-details">
-          <span class="project-name">Role:</span>
-          <span class="project-value">Principal Investigator</span>
-        </div>
-        <div class="project-details">
-          <span class="project-name">State Date:</span>
-          <span class="project-value">2022.01</span>
+          <span class="project-value">2022-01-01 to 2023-12-31</span>
         </div>
       </div>
     </li>
   </ul>
 </blockquote>
-
 <!-- JavaScript 代码 -->  
 <script>
   function toggleProject() {
