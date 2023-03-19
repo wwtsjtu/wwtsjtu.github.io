@@ -351,6 +351,7 @@
     background-color: #f0f0f0;
     font-weight: bold;
     cursor: pointer;
+    padding: 10px;
   }
 
   /* 表格内容样式 */
@@ -359,52 +360,45 @@
     padding: 10px;
   }
 
-.projects li {
-  list-style-type: none;
-}
+  .projects li {
+    list-style-type: none;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.projects li:hover {
-  background-color: #f8f8f8;
-}
+  .projects li:hover {
+    background-color: #f8f8f8;
+  }
 
-.projects li {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 8px 0;
-  border-bottom: 1px solid #ddd;
-}
+  .projects .project-name {
+    font-weight: normal;
+  }
 
-.projects .project-name {
-  font-weight: normal;
-}
-
-.projects .project-date {
-  color: #999;
-  margin-left: 16px;
-}
+  .projects .project-date {
+    color: #999;
+    margin-left: 16px;
+  }
 </style>
-
 <!-- 主持项目 -->
-<br/>
+<br>
 <h4 class="post-title"><strong>Host</strong></h4>
-<br/>
+<br>
 <blockquote class="projects">
   <ul>
     <li>
       <!-- 表格标题 -->
       <div class="project-header" onclick="toggleProject()">Game-Theoretical Approach for Decision-Making in Open Interactive Environments</div>
-    </li>
       <!-- 表格内容 -->
-    </li>
       <div class="project-content" id="project-content">
-        <span class="project-name"> Funding Source: <strong>Liaoning Province Excellent Dissertation (No.LNYS202127)</strong></span>
-        <span class="project-date">2021</span>
+        <span class="project-name">Funding Source: <strong>Liaoning Province Excellent Dissertation (No.LNYS202127)</strong></span>
       </div>
     </li>
   </ul>
 </blockquote>
-      
 <!-- JavaScript 代码 -->  
 <script>
   function toggleProject() {
@@ -416,6 +410,7 @@
     }
   }
 </script>
+
 
 
 
