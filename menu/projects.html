@@ -344,74 +344,57 @@
   </li>
 </ul>
 -->
-
-<style>
-  /* 设置表格样式 */
-  table {
-    border-collapse: collapse;
-    font-family: Arial, sans-serif;
-    width: 300px;
-  }
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 8px;
+      text-align: center;
+    }
+    tr:nth-child(odd) {
+      background-color: #f8f8f8;
+    }
+    tr:hover {
+      background-color: #eaeaea;
+      cursor: pointer;
+    }
+    .content {
+      display: none;
+    }
+  </style>
   
-  /* 设置表头样式 */
-  th {
-    background-color: #f2f2f2;
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-    font-weight: bold;
-  }
-  
-  /* 设置表格单元格样式 */
-  td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-  }
-  
-  /* 设置表格奇偶行颜色 */
-  tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-  
-  /* 设置表格边框样式 */
-  tr:first-child th:first-child,
-  tr:first-child td:first-child {
-    border-top-left-radius: 5px;
-  }
-  
-  tr:first-child th:last-child,
-  tr:first-child td:last-child {
-    border-top-right-radius: 5px;
-  }
-  
-  tr:last-child td:first-child {
-    border-bottom-left-radius: 5px;
-  }
-  
-  tr:last-child td:last-child {
-    border-bottom-right-radius: 5px;
-  }
-</style>
-
 <table>
-  <thead>
-    <tr>
+    <tr class="header">
       <th colspan="2">B</th>
     </tr>
-    <tr>
+    <tr class="header">
       <th>B1</th>
       <th>B2</th>
     </tr>
-  </thead>
-  <tbody>
-    <tr>
+    <tr class="data">
       <td>1</td>
       <td>2</td>
     </tr>
-  </tbody>
-</table>
-
+  </table>
+  <div class="content">
+    <p>This is the content that is displayed when the header is clicked.</p>
+  </div>
+  <script>
+    // Get the header row element
+    const headerRow = document.querySelector('.header');
+    // Get the content element
+    const content = document.querySelector('.content');
+    // Add an event listener to the header row
+    headerRow.addEventListener('click', function() {
+      // Toggle the display of the content element
+      if (content.style.display === 'none') {
+        content.style.display = 'block';
+      } else {
+        content.style.display = 'none';
+      }
+    });
+  </script>
 
 
 </section>
