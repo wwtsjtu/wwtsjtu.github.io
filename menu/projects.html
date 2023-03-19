@@ -371,14 +371,22 @@
     align-items: flex-start;
   }
 
-  .project-details span {
+  .project-details .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
     margin-right: 16px;
     margin-bottom: 8px;
+  }
+
+  .project-details .name {
+    width: 120px;
     font-weight: bold;
     text-align: left;
   }
 
-  .project-details strong {
+  .project-details .value {
+    flex-grow: 1;
     text-align: left;
   }
 
@@ -407,34 +415,27 @@
       <!-- 表格内容 -->
       <div class="project-content" id="project-content">
         <div class="project-details">
-          <span class="project-name">Funding Source:</span>
-          <span class="project-value">Liaoning Province Excellent Dissertation (No.LNYS202127)</span>
-          <span class="project-name">Award Amount:</span>
-          <span class="project-value">50,000 CNY</span>
-          <span class="project-name">Role:</span>
-          <span class="project-value">Principal Investigator</span>
-          <span class="project-name">State Date:</span>
-          <span class="project-value">2022.01</span>
+          <div class="row">
+            <div class="name">Funding Source:</div>
+            <div class="value">Liaoning Province Excellent Dissertation (No.LNYS202127)</div>
+          </div>
+          <div class="row">
+            <div class="name">Award Amount:</div>
+            <div class="value">50,000 CNY</div>
+          </div>
+          <div class="row">
+            <div class="name">Role:</div>
+            <div class="value">Principal Investigator</div>
+          </div>
+          <div class="row">
+            <div class="name">Start Date:</div>
+            <div class="value">2022.01</div>
+          </div>
         </div>
       </div>
     </li>
   </ul>
 </blockquote>
-
-<!-- JavaScript 代码 -->  
-<script>
-  function toggleProject() {
-    var tableContent = document.getElementById("project-content");
-    var expandButton = document.querySelector(".project-header span:last-of-type");
-    if (tableContent.style.display === "none") {
-      tableContent.style.display = "block";
-      expandButton.textContent = "-";
-    } else {
-      tableContent.style.display = "none";
-      expandButton.textContent = "+";
-    }
-  }
-</script>
 
 
 
