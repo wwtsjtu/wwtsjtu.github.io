@@ -204,6 +204,33 @@
 
 <section class="post">
 
+
+<h1>Publications</h1>
+    <ul id="pub">
+      <li>conference</li>
+      <ul class="sublist">
+        <li>[2] W. Wu, D. Wang, M. Lv, J. Jiang, L. Liu, and Z. Peng. "Event-triggered LOS Guidance for Path Following of an Unmanned Surface Vehicle over Wireless Network." 2020 39th Chinese Control Conference (CCC), IEEE, pp. 4475-4480, 2022. <a href="#">[PDF]</a></li>
+        <li>[3] Y. Zhang, W. Wu, D. Wu, Y. Wang, W. Zhang. "DSC-based Parallel Control for Consensus Maneuvering of Multi-agent Systems subject to Unmatched Uncertainties based on Distributed Nash Equilibrium Seeking." 2022 China Automation Congress (CAC), IEEE, pp. 1125-1130, 2022. <a href="#">[PDF]</a></li>
+      </ul>
+      <li>Journal</li>
+      <ul class="sublist">
+        <li>[4] A. Author and B. Author. "Article Title." Journal Name, vol. 1, no. 1, pp. 1-10, 2022. <a href="#">[PDF]</a></li>
+        <li>[5] C. Author, D. Author, and E. Author. "Another Article Title." Another Journal Name, vol. 2, no. 2, pp. 20-30, 2023. <a href="#">[PDF]</a></li>
+      </ul>
+    </ul>
+    <script>
+      // 获取父元素
+      const pub = document.getElementById("pub");
+      // 给父元素添加点击事件
+      pub.addEventListener("click", function () {
+        // 切换子列表的显示状态
+        const sublist = pub.querySelector(".sublist");
+        sublist.style.display =
+          sublist.style.display === "none" ? "block" : "none";
+      });
+    </script>
+
+
 <br/><br/>
 <h4>
 <summary>Journal papers (Published/Accepted)</summary>
