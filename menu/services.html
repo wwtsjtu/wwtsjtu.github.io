@@ -186,21 +186,6 @@
     <br/><br/>
     <h1 class="post-title" style="text-align: center;">[Services]</h1>
 
-<script>
-  // 获取所有带有子菜单的列表项
-  const parentItems = document.querySelectorAll("ul > li > ul");
-  
-  // 为每个列表项添加点击事件处理函数
-  parentItems.forEach(parent => {
-    const title = parent.previousElementSibling;
-    title.style.cursor = "pointer";
-    title.addEventListener("click", () => {
-      const child = parent.querySelector("ul");
-      child.style.display = child.style.display === "none" ? "block" : "none";
-    });
-  });
-</script>
-
 </header>
 
 <section class="post">
