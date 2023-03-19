@@ -190,44 +190,87 @@
 
 <section class="post">
 
+<style>
 
-<!--     <ul id="pub">  -->
-        <h4> <summary>Journal Reviewer</summary> </h4>
-        <br/><br/>
-        <blockquote>
-            <ul>
-                <li>IEEE Transactions on Systems, Man and Cybernetics: Systems</li>
-                <li>IEEE/CAA Journal of Automatica Sinica (English and Chinese versions)</li>
-                <li>IEEE Internet of Things Journal</li>
-                <li>IEEE Transactions on Intelligent Vehicles</li>
-                <li>Ocean Engineering</li>
-                <li>Nonlinear Dynamics</li>
-           </ul>
-        </blockquote>
-        <br/><br/>
-        <h4><summary>Conference Reviewer</summary></h4>
-        <br/><br/>
-        <blockquote>
-            <ul>
-                <li>ACC 2022</li>
-                <li>CCC 2023</li>
-                <li>CCDC 2022, 2023</li>
-            </ul>
-        </blockquote>
+.services li {
+  list-style-type: none;
+} 
 
-<!--    </ul>  -->
-<!--     <script>
-      // 获取父元素
-      const pub = document.getElementById("pub");
-      // 给父元素添加点击事件
-      pub.addEventListener("click", function () {
-        // 切换子列表的显示状态
-        const sublist = pub.querySelector(".sublist");
-        sublist.style.display =
-          sublist.style.display === "none" ? "block" : "none";
-      });
-    </script>
--->
+.services li:hover {
+  background-color: #f8f8f8;
+}
+
+.services li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.services .services-name {
+  font-weight: bold;
+}
+
+.services .services-date {
+  color: #999;
+  margin-left: 16px;
+}
+</style>
+
+<!-- 审稿期刊 -->
+<h3 class="post-title">Journal Reviewer</h3>
+<br/><br/>
+<blockquote class="services">
+  <ul>
+    <li>
+      <span class="services-name">IEEE Transactions on Systems, Man and Cybernetics: Systems</span>
+      <span class="services-date"></span>
+    </li>
+    <li>
+      <span class="services-name">IEEE/CAA Journal of Automatica Sinica (English and Chinese versions)</span>
+      <span class="services-date"></span>
+    </li>
+    <li>
+      <span class="services-name">IEEE Internet of Things Journal</span>
+      <span class="services-date"></span>
+    </li>
+    <li>
+      <span class="services-name">IEEE Transactions on Intelligent Vehicles</span>
+      <span class="services-date"></span>
+    </li>
+    <li>
+      <span class="services-name">Ocean Engineering</span>
+      <span class="services-date"></span>
+    </li>
+    <li>
+      <span class="services-name">Nonlinear Dynamics</span>
+      <span class="services-date"></span>
+    </li>
+  </ul>
+</blockquote>
+
+<!-- 审稿会议 -->
+<h3 class="post-title">Conference Reviewer</h3>
+<br/><br/>
+<blockquote class="services">
+  <ul>
+    <li>
+      <span class="services-name">ACC 2022</span>
+      <span class="services-date"></span>
+    </li>
+    <li>
+      <span class="services-name">CCC 2023</span>
+      <span class="services-date"></span>
+    </li>
+    <li>
+      <span class="services-name">CCDC 2022, 2023</span>
+      <span class="services-date"></span>
+    </li>
+  </ul>
+</blockquote>
+
+
 </section>
 
 
