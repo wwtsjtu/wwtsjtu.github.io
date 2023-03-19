@@ -344,57 +344,58 @@
   </li>
 </ul>
 -->
-  <style>
-    table {
-      border-collapse: collapse;
-    }
-    th, td {
-      padding: 8px;
-      text-align: center;
-    }
-    tr:nth-child(odd) {
-      background-color: #f8f8f8;
-    }
-    tr:hover {
-      background-color: #eaeaea;
-      cursor: pointer;
-    }
-    .content {
-      display: none;
-    }
-  </style>
-  
+
+<style>
+  /* 表格标题样式 */
+  .table-header {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  /* 表格内容样式 */
+  .table-content {
+    display: none;
+    padding: 10px;
+  }
+</style>
+
+<!-- 表格结构 -->
 <table>
-    <tr class="header">
-      <th colspan="2">B</th>
-    </tr>
-    <tr class="header">
-      <th>B1</th>
-      <th>B2</th>
-    </tr>
-    <tr class="data">
-      <td>1</td>
-      <td>2</td>
-    </tr>
-  </table>
-  <div class="content">
-    <p>This is the content that is displayed when the header is clicked.</p>
-  </div>
-  <script>
-    // Get the header row element
-    const headerRow = document.querySelector('.header');
-    // Get the content element
-    const content = document.querySelector('.content');
-    // Add an event listener to the header row
-    headerRow.addEventListener('click', function() {
-      // Toggle the display of the content element
-      if (content.style.display === 'none') {
-        content.style.display = 'block';
-      } else {
-        content.style.display = 'none';
-      }
-    });
-  </script>
+  <tr>
+    <td>
+      <!-- 表格标题 -->
+      <div class="table-header" onclick="toggleTable()">B</div>
+
+      <!-- 表格内容 -->
+      <div class="table-content" id="table-content">
+        <table>
+          <tr>
+            <td>B1</td>
+            <td>B2</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+          </tr>
+        </table>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<!-- JavaScript 代码 -->
+<script>
+  function toggleTable() {
+    var tableContent = document.getElementById("table-content");
+    if (tableContent.style.display === "none") {
+      tableContent.style.display = "block";
+    } else {
+      tableContent.style.display = "none";
+    }
+  }
+</script>
+
 
 
 </section>
