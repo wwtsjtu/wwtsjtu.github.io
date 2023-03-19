@@ -407,27 +407,34 @@
       <!-- 表格内容 -->
       <div class="project-content" id="project-content">
         <div class="project-details">
-          <div>
-            <span class="project-name">Funding Source:</span>
-            <strong class="project-value">Liaoning Province Excellent Dissertation (No.LNYS202127)</strong>
-          </div>
-          <div>
-            <span class="project-name">Award Amount:</span>
-            <strong class="project-value">50,000 CNY</strong>
-          </div>
-          <div>
-            <span class="project-name">Role:</span>
-            <strong class="project-value">Principal Investigator</strong>
-          </div>
-          <div>
-            <span class="project-name">Start Date:</span>
-            <strong class="project-value">2022.01</strong>
-          </div>
+          <span class="project-name">Funding Source:</span>
+          <span class="project-value">Liaoning Province Excellent Dissertation (No.LNYS202127)</span>
+          <span class="project-name">Award Amount:</span>
+          <span class="project-value">50,000 CNY</span>
+          <span class="project-name">Role:</span>
+          <span class="project-value">Principal Investigator</span>
+          <span class="project-name">State Date:</span>
+          <span class="project-value">2022.01</span>
         </div>
       </div>
     </li>
   </ul>
 </blockquote>
+
+<!-- JavaScript 代码 -->  
+<script>
+  function toggleProject() {
+    var tableContent = document.getElementById("project-content");
+    var expandButton = document.querySelector(".project-header span:last-of-type");
+    if (tableContent.style.display === "none") {
+      tableContent.style.display = "block";
+      expandButton.textContent = "-";
+    } else {
+      tableContent.style.display = "none";
+      expandButton.textContent = "+";
+    }
+  }
+</script>
 
 
 
