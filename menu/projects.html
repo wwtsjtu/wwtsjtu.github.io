@@ -179,7 +179,7 @@
             <article class="post-container post-container--single" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     <div class="post-meta" style="font-size:.8em">
-      <time datetime="1970-01-01 08:00:00 +0800" itemprop="datePublished" class="post-meta__date date">2023-03-18</time> &#8226; <span class="post-meta__tags tags">Wentao Wu, Projects</span> &#8226; View <span id="busuanzi_value_page_pv"></span> times.
+      <time datetime="1970-01-01 08:00:00 +0800" itemprop="datePublished" class="post-meta__date date">2023-03-18</time> &#8226; <span class="post-meta__tags tags">Wentao Wu, Education</span> &#8226; View <span id="busuanzi_value_page_pv"></span> times.
     </div>
 
     <br/><br/>
@@ -340,7 +340,7 @@
         <span>+</span>
       </div>
       <!-- 表格内容 -->
-      <div class="project-content" id="project-content-1">
+      <div class="project-content" id="project-content">
         <div class="project-details">
           <span class="project-name">Funding Source:</span>
           <span class="project-value"><strong>Hainan Province Science and Technology Special Fund (ZDYF2021GXJS041)</strong></span>
@@ -369,36 +369,7 @@
         <span>+</span>
       </div>
       <!-- 表格内容 -->
-      <div class="project-content" id="project-content-2">
-        <div class="project-details">
-          <span class="project-name">Funding Source:</span>
-          <span class="project-value"><strong>Hainan Province Science and Technology Special Fund (ZDYF2021GXJS041)</strong></span>
-        </div>
-        <!-- 
-        <div class="project-details">
-          <span class="project-name">Award Amount:</span>
-          <span class="project-value">50,000 CNY</span>
-        </div> 
-        -->
-        <div class="project-details">
-          <span class="project-name">Role:</span>
-          <span class="project-value">Principal Investigator</span>
-        </div>
-        <div class="project-details">
-          <span class="project-name">State Date:</span>
-          <span class="project-value">2022.01</span>
-        </div>
-      </div>
-    </li>
-    <li>
-      <!-- 表格标题 -->
-      <div class="project-header" onclick="toggleProject()">
-        <span> Key Technology of Air-Sea Cross-Domain Autonomous Coordination System for Maritime Search And Rescue 
-        </span>
-        <span>+</span>
-      </div>
-      <!-- 表格内容 -->
-      <div class="project-content" id="project-content-3">
+      <div class="project-content" id="project-content">
         <div class="project-details">
           <span class="project-name">Funding Source:</span>
           <span class="project-value"><strong>Hainan Province Science and Technology Special Fund (ZDYF2021GXJS041)</strong></span>
@@ -424,29 +395,18 @@
 
 <!-- JavaScript 代码 -->  
 <script>
-  // 获取所有的表格主体
-  var projectContents = document.querySelectorAll(".project-content");
-  
-  // 遍历所有的表格主体
-  for (var i = 0; i < projectContents.length; i++) {
-    // 获取当前表格的ID和展开/收缩按钮
-    var projectId = "project-content-" + (i+1);
-    var tableContent = document.getElementById(projectId);
-    var expandButton = projectContents[i].previousElementSibling;
-    
-    // 为展开/收缩按钮添加事件监听器
-    expandButton.addEventListener("click", function() {
-      if (tableContent.style.display === "none") {
-        tableContent.style.display = "block";
-        expandButton.textContent = "-";
-      } else {
-        tableContent.style.display = "none";
-        expandButton.textContent = "+";
-      }
-    });
+  function toggleProject() {
+    var tableContent = document.getElementById("project-content");
+    var expandButton = document.querySelector(".project-header span:last-of-type");
+    if (tableContent.style.display === "none") {
+      tableContent.style.display = "block";
+      expandButton.textContent = "-";
+    } else {
+      tableContent.style.display = "none";
+      expandButton.textContent = "+";
+    }
   }
 </script>
-
 
 
 
