@@ -246,32 +246,51 @@
     background-color: #f8f8f8;
   }
 
-  /* Title 单独一行显示 */
+  /* 标题样式 */
   .project-title {
-    margin-bottom: 8px;
-    font-size: 18px;
     font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  /* 金额和日期样式 */
+  .project-info {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+
+  /* 角色样式 */
+  .project-role {
+    font-size: 14px;
+    font-style: italic;
   }
 </style>
-
 <!-- 项目列表 -->
 <ul>
   <li>
     <div class="project-container">
       <div class="project-left">
-        <div class="project-title">
-          Game-Theoretical Approach for Decision-Making in Open Interactive Environments
+        <span class="project-title">Game-Theoretical Approach for Decision-Making in Open Interactive Environments</span>
+        <div class="project-info">
+          Funding Source: National Natural Science Foundation of China (62173226)
         </div>
-        <em>[National Natural Science Foundation of China (62173226)]</em>
+        <div class="project-info">
+          Award Amount: 580,000 CNY
+        </div>
+        <div class="project-info">
+          Start Date: 2022.01
+        </div>
       </div>
       <div class="project-right">
-        <div><strong>Award Amount:</strong> 580,000 CNY</div>
-        <div><strong>Role:</strong> Principal Investigator</div>
-        <div><strong>Start Date:</strong> 2022.01</div>
+        <div class="project-role">
+          Role: Principal Investigator
+        </div>
       </div>
     </div>
   </li>
 </ul>
+
+
 
 
 
