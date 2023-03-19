@@ -347,28 +347,16 @@
 
 <style>
   /* 表格标题样式 */
-  .table-header {
+  .project-header {
     background-color: #f0f0f0;
     font-weight: bold;
     cursor: pointer;
   }
 
   /* 表格内容样式 */
-  .table-content {
+  .project-content {
     display: none;
     padding: 10px;
-  }
-  table {
-    border-collapse: collapse;
-  }
-
-  th, td {
-    border: none;
-    padding: 8px;
-  }
-
-  th {
-    background-color: #f8f8f8;
   }
 
 .awards li {
@@ -397,7 +385,7 @@
 }
 </style>
 
-<!-- 硕士阶段所获奖项列表 -->
+<!-- 主持项目 -->
 <br/>
 <h4 class="post-title"><strong>Host</strong></h4>
 <br/>
@@ -405,22 +393,22 @@
   <ul>
     <li>
       <!-- 表格标题 -->
-      <div class="table-header" onclick="toggleTable()">Game-Theoretical Approach for Decision-Making in Open Interactive Environments</div>
+      <div class="project-header" onclick="toggleProject()">Game-Theoretical Approach for Decision-Making in Open Interactive Environments</div>
     </li>
       <!-- 表格内容 -->
     </li>
-      <div class="table-content" id="table-content">
-        <span class="award-name">Liaoning Province Excellent Dissertation <strong>(No.LNYS202127)</strong></span>
+      <div class="project-content" id="project-content">
+        <span class="award-name"> Funding Source: <strong>Liaoning Province Excellent Dissertation (No.LNYS202127)</strong></span>
         <span class="award-date">2021</span>
       </div>
     </li>
   </ul>
 </blockquote>
       
-<!-- JavaScript 代码 -->
+<!-- JavaScript 代码 -->  
 <script>
-  function toggleTable() {
-    var tableContent = document.getElementById("table-content");
+  function toggleProject() {
+    var tableContent = document.getElementById("project-content");
     if (tableContent.style.display === "none") {
       tableContent.style.display = "block";
     } else {
