@@ -348,67 +348,82 @@
 <style>
   /* 表格标题样式 */
   .project-header {
+    background-color: #f0f0f0;
     font-weight: bold;
     cursor: pointer;
-    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
   }
 
   /* 表格内容样式 */
   .project-content {
     display: none;
     padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .project-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .project-details span {
+    margin: 8px;
   }
 
   .projects li {
     list-style-type: none;
-    background-color: #fff;
+    background-color: #f8f8f8;
     border-bottom: 1px solid #ddd;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
 
   .projects li:hover {
-    background-color: #f8f8f8;
-  }
-
-  .projects .project-name {
-    font-weight: normal;
-  }
-
-  .projects .project-date {
-    color: #999;
-    margin-left: 16px;
+    background-color: #f0f0f0;
   }
 </style>
+
 <!-- 主持项目 -->
-<br>
+<br/>
 <h4 class="post-title"><strong>Host</strong></h4>
-<br>
+<br/>
 <blockquote class="projects">
   <ul>
     <li>
       <!-- 表格标题 -->
-      <div class="project-header" onclick="toggleProject()">Game-Theoretical Approach for Decision-Making in Open Interactive Environments</div>
+      <div class="project-header" onclick="toggleProject()">
+        <span>Game-Theoretical Approach for Decision-Making in Open Interactive Environments</span>
+        <span>+</span>
+      </div>
       <!-- 表格内容 -->
       <div class="project-content" id="project-content">
-        <span class="project-name">Funding Source: <strong>Liaoning Province Excellent Dissertation (No.LNYS202127)</strong></span>
+        <div class="project-details">
+          <span class="project-name">Funding Source:</span>
+          <span class="project-value"><strong>Liaoning Province Excellent Dissertation (No.LNYS202127)</strong></span>
+        </div>
       </div>
     </li>
   </ul>
 </blockquote>
+
 <!-- JavaScript 代码 -->  
 <script>
   function toggleProject() {
     var tableContent = document.getElementById("project-content");
+    var expandButton = document.querySelector(".project-header span:last-of-type");
     if (tableContent.style.display === "none") {
       tableContent.style.display = "block";
+      expandButton.textContent = "-";
     } else {
       tableContent.style.display = "none";
+      expandButton.textContent = "+";
     }
   }
 </script>
+
 
 
 
