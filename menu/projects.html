@@ -358,6 +358,22 @@
     display: none;
     padding: 10px;
   }
+  table {
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: none;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #f8f8f8;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
 </style>
 
 <!-- 表格结构 -->
@@ -369,7 +385,6 @@
 
       <!-- 表格内容 -->
       <div class="table-content" id="table-content">
-        <table>
           <tr>
             <td>B1</td>
             <td>B2</td>
@@ -378,7 +393,6 @@
             <td>1</td>
             <td>2</td>
           </tr>
-        </table>
       </div>
     </td>
   </tr>
