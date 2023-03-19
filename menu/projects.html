@@ -370,7 +370,66 @@
   th {
     background-color: #f8f8f8;
   }
+
+.awards li {
+  list-style-type: none;
+}
+
+.awards li:hover {
+  background-color: #f8f8f8;
+}
+
+.awards li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.awards .award-name {
+  font-weight: normal;
+}
+
+.awards .award-date {
+  color: #999;
+  margin-left: 16px;
+}
 </style>
+
+<!-- 硕士阶段所获奖项列表 -->
+<br/>
+<h4 class="post-title"><strong>Master's Degree</strong></h4>
+<br/>
+<blockquote class="awards">
+  <ul>
+    <li>
+      <span class="award-name">Liaoning Province Excellent Dissertation <strong>(No.LNYS202127)</strong></span>
+      <span class="award-date">2021</span>
+    </li>
+    <li>
+      <span class="award-name">National Scholarship for Postgraduate Student</span>
+      <span class="award-date">2020</span>
+    </li>
+    <li>
+      <span class="award-name">Outstanding Graduate of Dalian</span>
+      <span class="award-date">2020</span>
+    </li>
+    <li>
+      <span class="award-name">Outstanding Graduate of Dalian Maritime University</span>
+      <span class="award-date">2020</span>
+    </li>
+    <li>
+      <span class="award-name">National Third Prize of China Graduate Electronics Design Contest</span>
+      <span class="award-date">2020</span>
+    </li>
+    <li>
+      <span class="award-name">Provincial First Prize of China Graduate Electronics Design Contest (3 times)</span>
+      <span class="award-date">2020</span>
+    </li>
+  </ul>
+</blockquote>
+
 
 <!-- 表格结构 -->
 
@@ -379,7 +438,8 @@
 
       <!-- 表格内容 -->
       <div class="table-content" id="table-content">
-          <tr>
+          <table>
+            <tr>
             <td>B1</td>
             <td>B2</td>
           </tr>
@@ -387,6 +447,7 @@
             <td>1</td>
             <td>2</td>
           </tr>
+          </table>
       </div>
 
 <!-- JavaScript 代码 -->
