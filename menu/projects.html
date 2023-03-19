@@ -369,24 +369,19 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    justify-content: space-between;
   }
 
-  .project-details .row {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
+  .project-details span {
     margin-right: 16px;
     margin-bottom: 8px;
-  }
-
-  .project-details .name {
-    width: 120px;
     font-weight: bold;
     text-align: left;
+    flex-basis: calc(25% - 16px);
+    max-width: calc(25% - 16px);
   }
 
-  .project-details .value {
-    flex-grow: 1;
+  .project-details strong {
     text-align: left;
   }
 
@@ -400,6 +395,7 @@
     background-color: #f0f0f0;
   }
 </style>
+
 <!-- 主持项目 -->
 <br/>
 <h4 class="post-title"><strong>Host</strong></h4>
@@ -415,22 +411,14 @@
       <!-- 表格内容 -->
       <div class="project-content" id="project-content">
         <div class="project-details">
-          <div class="row">
-            <div class="name">Funding Source:</div>
-            <div class="value">Liaoning Province Excellent Dissertation (No.LNYS202127)</div>
-          </div>
-          <div class="row">
-            <div class="name">Award Amount:</div>
-            <div class="value">50,000 CNY</div>
-          </div>
-          <div class="row">
-            <div class="name">Role:</div>
-            <div class="value">Principal Investigator</div>
-          </div>
-          <div class="row">
-            <div class="name">Start Date:</div>
-            <div class="value">2022.01</div>
-          </div>
+          <span class="project-name">Funding Source:</span>
+          <span class="project-value">Liaoning Province Excellent Dissertation (No.LNYS202127)</span>
+          <span class="project-name">Award Amount:</span>
+          <span class="project-value">50,000 CNY</span>
+          <span class="project-name">Role:</span>
+          <span class="project-value">Principal Investigator</span>
+          <span class="project-name">State Date:</span>
+          <span class="project-value">2022.01</span>
         </div>
       </div>
     </li>
