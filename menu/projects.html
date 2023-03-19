@@ -183,7 +183,7 @@
     </div>
 
     <br/><br/>
-    <h1 class="post-title" style="text-align: center;">[Projects]</h1>
+    <h1 class="post-title" style="text-align: left;">[Projects]</h1>
 
 </header>
 
@@ -280,6 +280,7 @@
 </ul>
 -->
 
+<!--
 <style>
   /* 去除列表项的符号 */
   li {
@@ -310,7 +311,6 @@
     background-color: #f8f8f8;
   }
 </style>
-<!-- 信息列表 -->
 <ul>
   <li>
     <div class="info-container">
@@ -343,6 +343,75 @@
     </div>
   </li>
 </ul>
+-->
+
+<style>
+  /* 设置表格样式 */
+  table {
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    width: 300px;
+  }
+  
+  /* 设置表头样式 */
+  th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  /* 设置表格单元格样式 */
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* 设置表格奇偶行颜色 */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* 设置表格边框样式 */
+  tr:first-child th:first-child,
+  tr:first-child td:first-child {
+    border-top-left-radius: 5px;
+  }
+  
+  tr:first-child th:last-child,
+  tr:first-child td:last-child {
+    border-top-right-radius: 5px;
+  }
+  
+  tr:last-child td:first-child {
+    border-bottom-left-radius: 5px;
+  }
+  
+  tr:last-child td:last-child {
+    border-bottom-right-radius: 5px;
+  }
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">B</th>
+    </tr>
+    <tr>
+      <th>B1</th>
+      <th>B2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 </section>
