@@ -290,26 +290,22 @@
     align-items: center;
     padding: 8px;
     border-bottom: 1px solid #ddd;
-    color: #333;
-    font-size: 18px;
     font-family: Arial, sans-serif;
+    color: #333;
   }
 
   /* 表格内容样式 */
   .project-content {
-    display: none;
     padding: 10px;
     border-bottom: 1px solid #ddd;
-    color: #333;
-    font-size: 16px;
     font-family: Arial, sans-serif;
+    color: #333;
   }
 
   .project-details {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    margin-bottom: 5px;
   }
 
   .project-details span {
@@ -317,16 +313,14 @@
     margin-bottom: 8px;
     font-weight: bold;
     text-align: left;
-    color: #333;
-    font-size: 16px;
     font-family: Arial, sans-serif;
+    color: #555;
   }
 
   .project-details strong {
     text-align: left;
-    color: #666;
-    font-size: 16px;
     font-family: Arial, sans-serif;
+    color: #333;
   }
 
   .projects li {
@@ -340,22 +334,28 @@
   }
 </style>
 <!-- 主持项目 -->
-<br/>
+<br>
 <blockquote class="projects">
   <ul>
     <li>
       <!-- 表格标题 -->
-      <div class="project-header" id="project-header-1" onclick="toggleProject()" > 
+      <div class="project-header" onclick="toggleProject()"> 
         <span> Coordination Control Technique of Unmanned Surface Vehicle Swarms for Ocean Ranch 
         </span>
-        <span style="color: #333; font-size: 24px; font-family: Arial, sans-serif;">+</span>
+        <span>+</span>
       </div>
       <!-- 表格内容 -->
-      <div class="project-content" id="project-content-1">
+      <div class="project-content" id="project-content">
         <div class="project-details">
           <span class="project-name">Funding Source:</span>
           <span class="project-value"><strong>Hainan Special Ph.D. Scientific Research Foundation of Sanya Yazhou Bay Science and Technology City (HSPHDSRF-2022-01-007)</strong></span>
         </div>
+        <!-- 
+        <div class="project-details">
+          <span class="project-name">Award Amount:</span>
+          <span class="project-value">50,000 CNY</span>
+        </div> 
+        -->
         <div class="project-details">
           <span class="project-name">Role:</span>
           <span class="project-value">Principal Investigator</span>
@@ -366,61 +366,13 @@
         </div>
       </div>
     </li>
-    <li>
-      <!-- 表格标题 -->
-      <div class="project-header" id="project-header-2" onclick="toggleProject()" > 
-        <span> Coordination Control Technique of Unmanned Surface Vehicle Swarms for Ocean Ranch 
-        </span>
-        <span style="color: #333; font-size: 24px; font-family: Arial, sans-serif;">+</span>
-      </div>
-      <!-- 表格内容 -->
-      <div class="project-content" id="project-content-2">
-        <div class="project-details">
-          <span class="project-name">Funding Source:</span>
-          <span class="project-value"><strong>Hainan Special Ph.D. Scientific Research Foundation of Sanya Yazhou Bay Science and Technology City (HSPHDSRF-2022-01-007)</strong></span>
-        </div>
-        <div class="project-details">
-          <span class="project-name">Role:</span>
-          <span class="project-value">Principal Investigator</span>
-        </div>
-        <div class="project-details">
-          <span class="project-name">State Date:</span>
-          <span class="project-value">202201-202312</span>
-        </div>
-      </div>
-    </li>
-    <li>
-      <!-- 表格标题 -->
-      <div class="project-header" id="project-header-3" onclick="toggleProject()" > 
-        <span> Coordination Control Technique of Unmanned Surface Vehicle Swarms for Ocean Ranch 
-        </span>
-        <span style="color: #333; font-size: 24px; font-family: Arial, sans-serif;">+</span>
-      </div>
-      <!-- 表格内容 -->
-      <div class="project-content" id="project-content-3">
-        <div class="project-details">
-          <span class="project-name">Funding Source:</span>
-          <span class="project-value"><strong>Hainan Special Ph.D. Scientific Research Foundation of Sanya Yazhou Bay Science and Technology City (HSPHDSRF-2022-01-007)</strong></span>
-        </div>
-        <div class="project-details">
-          <span class="project-name">Role:</span>
-          <span class="project-value">Principal Investigator</span>
-        </div>
-        <div class="project-details">
-          <span class="project-name">State Date:</span>
-          <span class="project-value">202201-202312</span>
-        </div>
-      </div>
-    </li>
-
   </ul>
 </blockquote>
 <!-- JavaScript 代码 -->  
-
 <script>
-  function toggleProject(projectId) {
-    var tableContent = document.getElementById("project-content-" + projectId);
-    var expandButton = document.querySelector("#project-header-" + projectId + " span:last-of-type");
+  function toggleProject() {
+    var tableContent = document.getElementById("project-content");
+    var expandButton = document.querySelector(".project-header span:last-of-type");
     if (tableContent.style.display === "none") {
       tableContent.style.display = "block";
       expandButton.textContent = "-";
@@ -500,7 +452,7 @@
         data-isso-vote="true"
         data-vote-levels=""
         src="//47.52.58.34:1234/js/embed.min.js">
-        </script>
+</script>
 
 
 
