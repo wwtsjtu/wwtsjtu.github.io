@@ -239,6 +239,15 @@
     margin-left: auto;
     font-family: Georgia, serif;
   }
+  ol.custom-counter {
+    counter-reset: custom-counter;
+    list-style-type: none;
+  }
+
+  ol.custom-counter li::before {
+    content: "[" counter(custom-counter) "] ";
+    counter-increment: custom-counter;
+  }
 </style>
 <!-- 期刊 -->
 
