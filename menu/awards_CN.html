@@ -52,7 +52,57 @@
     a {
       color: #50B6B9;
     }
-  </style>
+    .awards li:hover {
+      background-color: #f8f8f8;
+    }
+    .awards li {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 0;
+      border-bottom: 1px solid #ddd;
+    }
+    .award-name {
+      font-weight: normal;
+      font-family: Georgia, serif;
+    }
+    .award-date {
+      color: #999;
+      margin-left: 16px;
+      font-family: Georgia, serif;
+    }
+
+    .isso-comment > div.avatar {
+        border: 0px;
+        box-shadow: none;
+        display: block;
+        float: left;
+        width: 7%;
+        margin: 3px 15px 0 0;
+    }
+    .isso-postbox > .form-wrapper > .auth-section .post-action > input {
+        border-radius: 6px;
+        padding: 6px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border: 1px solid #CCC;
+        background-color: #D58D44;
+        cursor: pointer;
+        outline: 0;
+        color: #fff;
+        size: 10;
+        line-height: 1.4em;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    }
+    .isso-postbox > .form-wrapper > .auth-section .post-action > input:hover {
+        background-color: #272822;
+    }
+    .isso-postbox > .form-wrapper > .auth-section .post-action > input:active {
+        background-color: #986530;
+    }
+</style>
+
 </head>
 
 
@@ -187,30 +237,7 @@
 
     <section class="post">
 
- <style>
-    .awards li:hover {
-      background-color: #f8f8f8;
-    }
-    .awards li {
-      list-style-type: none;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 8px 0;
-      border-bottom: 1px solid #ddd;
-    }
-    .award-name {
-      font-weight: normal;
-    }
-    .award-date {
-      color: #999;
-      margin-left: 16px;
-      font-family: Georgia, serif;
-    }
-  </style>
-    
-
-    <!-- 硕士阶段所获奖项列表 -->
+<!-- 硕士阶段所获奖项列表 -->
     <br>
     <h3><strong><span style="color: #006699; font-family: Georgia, serif; text-decoration: underline;">大连海事大学</span></strong></h3>
     <br>
@@ -247,38 +274,6 @@
 
 
     </article>
-
-
-    <style type="text/css">
-    .isso-comment > div.avatar {
-        border: 0px;
-        box-shadow: none;
-        display: block;
-        float: left;
-        width: 7%;
-        margin: 3px 15px 0 0;
-    }
-    .isso-postbox > .form-wrapper > .auth-section .post-action > input {
-        border-radius: 6px;
-        padding: 6px;
-        padding-left: 16px;
-        padding-right: 16px;
-        border: 1px solid #CCC;
-        background-color: #D58D44;
-        cursor: pointer;
-        outline: 0;
-        color: #fff;
-        size: 10;
-        line-height: 1.4em;
-        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    }
-    .isso-postbox > .form-wrapper > .auth-section .post-action > input:hover {
-        background-color: #272822;
-    }
-    .isso-postbox > .form-wrapper > .auth-section .post-action > input:active {
-        background-color: #986530;
-    }
-    </style>
 
     <section id="isso-thread"></section>
 
