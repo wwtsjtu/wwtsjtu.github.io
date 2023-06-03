@@ -52,26 +52,58 @@
     a {
       color: #50B6B9;
     }
-    .awards li:hover {
-      background-color: #f8f8f8;
-    }
-    .awards li {
-      list-style-type: none;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 8px 0;
-      border-bottom: 1px solid #ddd;
-    }
-    .award-name {
-      font-weight: normal;
-      font-family: Georgia, serif;
-    }
-    .award-date {
-      color: #999;
-      margin-left: 16px;
-      font-family: Georgia, serif;
-    }
+   /* 表格标题样式 */
+  .project-header {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    font-family: Georgia, serif;
+    color: #333;
+    font-size: 18px;
+  }
+  /* 表格内容样式 */
+  .project-content {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-family: Georgia, serif;
+    color: #333;
+  }
+
+  .project-details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .project-details span {
+    margin-right: 16px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-align: left;
+    font-family: Georgia, serif;
+    color: #555;
+  }
+
+  .project-details strong {
+    text-align: left;
+    font-family: Georgia, serif;
+    color: #333;
+  }
+
+  .projects li {
+    list-style-type: none;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .projects li:hover {
+    background-color: #f0f0f0;
+  }
 </style>
 </head>
 
@@ -218,60 +250,7 @@
 
 <section class="post">
 
-<style>
-  /* 表格标题样式 */
-  .project-header {
-    background-color: #f0f0f0;
-    font-weight: bold;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px;
-    border-bottom: 1px solid #ddd;
-    font-family: Georgia, serif;
-    color: #333;
-    font-size: 18px;
-  }
-  /* 表格内容样式 */
-  .project-content {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-    font-family: Georgia, serif;
-    color: #333;
-  }
 
-  .project-details {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-  }
-
-  .project-details span {
-    margin-right: 16px;
-    margin-bottom: 8px;
-    font-weight: bold;
-    text-align: left;
-    font-family: Georgia, serif;
-    color: #555;
-  }
-
-  .project-details strong {
-    text-align: left;
-    font-family: Georgia, serif;
-    color: #333;
-  }
-
-  .projects li {
-    list-style-type: none;
-    background-color: #f8f8f8;
-    border-bottom: 1px solid #ddd;
-  }
-
-  .projects li:hover {
-    background-color: #f0f0f0;
-  }
-</style>
 <!-- 主持项目 -->
 <br>
 <blockquote class="projects" style="border-left-width: 0px; padding-left: 0px; padding-right: 0px; margin-bottom: 0px; text-align: justify;">
@@ -360,68 +339,12 @@
 
 </article>
 
-<!--
-<section class="contribute">
-    <script type="text/javascript"> 
-      function toggle() {
-        var con = document.getElementById("contribute");
-        if (con.style.display == "none") {
-          con.style.display = "block";
-        } else {
-          con.style.display = "none";
-        }
-      }
-    </script> 
-</section>
--->
-
-<style type="text/css">
-.isso-comment > div.avatar {
-    border: 0px;
-    box-shadow: none;
-    display: block;
-    float: left;
-    width: 7%;
-    margin: 3px 15px 0 0;
-}
-.isso-postbox > .form-wrapper > .auth-section .post-action > input {
-    border-radius: 6px;
-    padding: 6px;
-    padding-left: 16px;
-    padding-right: 16px;
-    border: 1px solid #CCC;
-    background-color: #D58D44;
-    cursor: pointer;
-    outline: 0;
-    color: #fff;
-    size: 10;
-    line-height: 1.4em;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-}
-.isso-postbox > .form-wrapper > .auth-section .post-action > input:hover {
-    background-color: #272822;
-}
-.isso-postbox > .form-wrapper > .auth-section .post-action > input:active {
-    background-color: #986530;
-}
-</style>
-
-<section id="isso-thread"></section>
-
-<script data-isso="//47.52.58.34:1234/" data-isso-css="true" data-isso-lang="zh" data-isso-reply-to-self="false" data-isso-require-author="false" data-isso-require-email="false" data-isso-max-comments-top="10" data-isso-max-comments-nested="5" data-isso-reveal-on-click="5" data-isso-avatar="true" data-isso-avatar-bg="#f0f0f0" data-isso-avatar-fg="#9abf88 #5698c4 #e279a3 #9163b6 ..." data-isso-vote="true" data-vote-levels="" src="https://47.52.58.34:1234/js/embed.min.js">
-</script>
-
-
 
     </div>
   
   <div class="page-footer" style="position: fixed; bottom: 0; width: 100%; background-color: #f2f2f2;">
-<!--
-    <nav class="pagination" role="navigation">
-        <span class="pagination__page-number">1 / 1</span>
-    </nav>
--->
-    <section class="footer">
+
+    <section class="footer" style="text-align: left; padding-top: 10px; padding-bottom: 5px; border-top-width: 0px; width: 1680px; height: 31.8359px;">
         <footer>   
             <span class="footer__copyright">
                 This site is licensed under
@@ -445,21 +368,8 @@
 <script>hljs.initHighlightingOnLoad();</script>
 
 <script type="text/javascript" src="https://wwtsjtu.github.io/js/main.js"></script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-82493667-1', 'auto');
-  ga('send', 'pageview');
-
-</script><div class="firContainer" id="firContainer" style="height: 915px; width: 375px;"><iframe class="firIframe" id="firIframe" name="clmkmffdbohhicjlhkcdghlgflpoabfj" src="https://searchpluginchrome.fir.ai/?chrome_extension_flag_true=T" style="height: 915px; width: 375px;"></iframe></div>
-
-    
-  
-
+<div class="firContainer" id="firContainer" style="height: 100%; width: 100%;"><iframe class="firIframe" id="firIframe" name="clmkmffdbohhicjlhkcdghlgflpoabfj" src="https://searchpluginchrome.fir.ai/?chrome_extension_flag_true=T" style="height: 100%; width: 100%;"></iframe>
+</div>
 </body>
 
 </html>
