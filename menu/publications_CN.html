@@ -44,19 +44,32 @@
       enable_page_level_ads: true
     });
   </script>
-  <!-- 修改字体为 Georgia -->
   <style>
-    body {
-    font-family: Georgia, serif;
-    }
-    h1 {
-    font-family: Georgia, serif;
-    }
-    h4 {
-    font-family: Georgia, serif;
+    body, h1, h4 {
+      font-family: Georgia, serif;
     }
     a {
-    color: #50B6B9;
+      color: #50B6B9;
+    }
+    .awards li:hover {
+      background-color: #f8f8f8;
+    }
+    .awards li {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 0;
+      border-bottom: 1px solid #ddd;
+    }
+    .award-name {
+      font-weight: normal;
+      font-family: Georgia, serif;
+    }
+    .award-date {
+      color: #999;
+      margin-left: 16px;
+      font-family: Georgia, serif;
     }
   </style>
 </head>
@@ -208,34 +221,7 @@
 
 <section class="post">
 
-<style>
-  .publications li {
-    list-style-type: none;
-  } 
 
-  .publications li:hover {
-    background-color: #f8f8f8;
-  }
-
-  .publications li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px 0;
-    border-bottom: 1px solid #ddd;
-  }
-
-  .publications .publications-name {
-    font-weight: normal;
-    font-family: Georgia, serif;
-  }
-
-  .publications .publications-num {
-    color: #999;
-    margin-left: auto;
-    font-family: Georgia, serif;
-  }
-</style>
 <!-- 期刊 -->
 
 <h3><strong><span style="color: #006699; font-family: Georgia, serif; text-decoration: underline;">待刊论文</span></strong></h3>
@@ -385,7 +371,7 @@
   
   <div class="page-footer" style="position: fixed; bottom: 0; width: 100%; background-color: #f2f2f2;">
 
-    <section class="footer">
+    <section class="footer" style="text-align: left; padding-top: 10px; padding-bottom: 5px; border-top-width: 0px; width: 1680px; height: 31.8359px;">
         <footer>   
             <span class="footer__copyright">
                 This site is licensed under
