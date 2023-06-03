@@ -44,18 +44,35 @@
       enable_page_level_ads: true
     });
   </script>
-  <!-- 修改字体为 Georgia -->
+    <!-- 修改字体为 Georgia -->
   <style>
-    body {
-    font-family: Georgia, serif;
-    }
-    h1 {
-    font-family: Georgia, serif;
+    body, h1, h4 {
+      font-family: Georgia, serif;
     }
     a {
-    color: #50B6B9;
+      color: #50B6B9;
     }
-  </style>
+    .awards li:hover {
+      background-color: #f8f8f8;
+    }
+    .awards li {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 0;
+      border-bottom: 1px solid #ddd;
+    }
+    .award-name {
+      font-weight: normal;
+      font-family: Georgia, serif;
+    }
+    .award-date {
+      color: #999;
+      margin-left: 16px;
+      font-family: Georgia, serif;
+    }
+</style>
 </head>
 
 
