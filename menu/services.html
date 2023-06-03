@@ -44,21 +44,35 @@
       enable_page_level_ads: true
     });
   </script>
-  <!-- 修改字体为 Georgia -->
+    <!-- 定义Style -->
   <style>
-    body {
-    font-family: Georgia, serif;
-    }
-    h1 {
-    font-family: Georgia, serif;
-    }
-    h4 {
-    font-family: Georgia, serif;
+    body, h1, h4 {
+      font-family: Georgia, serif;
     }
     a {
-    color: #50B6B9;
+      color: #50B6B9;
     }
-  </style>
+    .awards li:hover {
+      background-color: #f8f8f8;
+    }
+    .awards li {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 0;
+      border-bottom: 1px solid #ddd;
+    }
+    .award-name {
+      font-weight: normal;
+      font-family: Georgia, serif;
+    }
+    .award-date {
+      color: #999;
+      margin-left: 16px;
+      font-family: Georgia, serif;
+    }
+</style>
 </head>
 
 
@@ -310,44 +324,6 @@
       }
     </script> 
 </section>
-
-
-<style type="text/css">
-.isso-comment > div.avatar {
-    border: 0px;
-    box-shadow: none;
-    display: block;
-    float: left;
-    width: 7%;
-    margin: 3px 15px 0 0;
-}
-.isso-postbox > .form-wrapper > .auth-section .post-action > input {
-    border-radius: 6px;
-    padding: 6px;
-    padding-left: 16px;
-    padding-right: 16px;
-    border: 1px solid #CCC;
-    background-color: #D58D44;
-    cursor: pointer;
-    outline: 0;
-    color: #fff;
-    size: 10;
-    line-height: 1.4em;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-}
-.isso-postbox > .form-wrapper > .auth-section .post-action > input:hover {
-    background-color: #272822;
-}
-.isso-postbox > .form-wrapper > .auth-section .post-action > input:active {
-    background-color: #986530;
-}
-</style>
-
-<section id="isso-thread"></section>
-
-<script data-isso="//47.52.58.34:1234/" data-isso-css="true" data-isso-lang="zh" data-isso-reply-to-self="false" data-isso-require-author="false" data-isso-require-email="false" data-isso-max-comments-top="10" data-isso-max-comments-nested="5" data-isso-reveal-on-click="5" data-isso-avatar="true" data-isso-avatar-bg="#f0f0f0" data-isso-avatar-fg="#9abf88 #5698c4 #e279a3 #9163b6 ..." data-isso-vote="true" data-vote-levels="" src="https://47.52.58.34:1234/js/embed.min.js">
-        </script>
-
 
 
     </div>

@@ -44,19 +44,33 @@
       enable_page_level_ads: true
     });
   </script>
-  <!-- 修改字体为 Georgia -->
+    <!-- 定义Style -->
   <style>
-    body {
-    font-family: Georgia, serif;
-    }
-    h1 {
-    font-family: Georgia, serif;
-    }
-    h4 {
-    font-family: Georgia, serif;
+    body, h1, h4 {
+      font-family: Georgia, serif;
     }
     a {
-    color: #50B6B9;
+      color: #50B6B9;
+    }
+    .awards li:hover {
+      background-color: #f8f8f8;
+    }
+    .awards li {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 0;
+      border-bottom: 1px solid #ddd;
+    }
+    .award-name {
+      font-weight: normal;
+      font-family: Georgia, serif;
+    }
+    .award-date {
+      color: #999;
+      margin-left: 16px;
+      font-family: Georgia, serif;
     }
   </style>
 </head>
@@ -200,36 +214,6 @@
 
 <section class="post">
 
-<style>
-
-.services li {
-  list-style-type: none;
-} 
-
-.services li:hover {
-  background-color: #f8f8f8;
-}
-
-.services li {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 8px 0;
-  border-bottom: 1px solid #ddd;
-}
-
-.services .services-name {
-  font-weight: normal;
-  font-family: Georgia, serif;
-}
-
-.services .services-date {
-  color: #999;
-  margin-left: 16px;
-  font-family: Georgia, serif;
-}
-</style>
-
 <!-- 审稿期刊 -->
 <br>
 <h3><strong><span style="color: #006699; font-family: Georgia, serif; text-decoration: underline;">期刊审稿人</span></strong></h3>
@@ -298,14 +282,10 @@
 
 
 
-    </div>
+  </div>
   
   <div class="page-footer" style="position: fixed; bottom: 0; width: 100%; background-color: #f2f2f2;">
-<!--
-    <nav class="pagination" role="navigation">
-        <span class="pagination__page-number">1 / 1</span>
-    </nav>
--->
+
     <section class="footer">
         <footer>   
             <span class="footer__copyright">
