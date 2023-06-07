@@ -71,6 +71,15 @@
       margin-left: 16px;
       font-family: Georgia, serif;
     }
+    @keyframes blink {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    .new-message {
+      animation: blink 1s infinite;
+    }
   </style>
 </head>
 
@@ -166,7 +175,7 @@
       <h3><strong><span style="color: #006699; font-family: Georgia, serif; text-decoration: underline;">Recent News:</span></strong></h3>
 
           <ul>
-            <li> 2023/02 -- Congratulations to <strong>Yibo Zhang</strong>! New paper was accepted by <strong>IEEE T-CSII</strong>. </li>
+            <li class="new-message"> 2023/02 -- Congratulations to <strong>Yibo Zhang</strong>! New paper was accepted by <strong>IEEE T-CSII</strong>. </li>
             <li> 2022/12 -- 获得海南自贸港创业大赛院校学生专项赛一等奖 <strong></strong>. </li>
             <li> 2023/02 -- Congratulations to <strong>Yibo Zhang</strong>! New paper was accepted by <strong>IEEE T-IV</strong>. </li>
             <li> 2022/10 -- Congratulations to <strong>Wentao Wu</strong>! New paper was accepted by <strong>OE</strong>. </li>
