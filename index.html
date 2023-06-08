@@ -66,14 +66,23 @@
       margin-left: 16px;
       font-family: Georgia, serif;
     }
+
     @keyframes blink {
-      0% { opacity: 1; }
-      50% { opacity: 0; }
-      100% { opacity: 1; }
+      0% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
     }
 
     .new-message {
-      animation: blink 1s infinite;
+      animation: blink 2s infinite;
     }
   </style>
 </head>
@@ -251,69 +260,69 @@
         <br />
         <h3><strong><span style="color: #006699; font-family: Georgia, serif; text-decoration: underline;">Recent News:</span></strong></h3>
 
-          <ul>
-            <li class="new-message"> 2023/02 -- Congratulations to <strong>Yibo Zhang</strong>! New paper was accepted by <strong>IEEE T-CSII</strong>. </li>
-            <li> 2022/12 -- 获得海南自贸港创业大赛院校学生专项赛一等奖 <strong></strong>. </li>
-            <li> 2023/02 -- Congratulations to <strong>Yibo Zhang</strong>! New paper was accepted by <strong>IEEE T-IV</strong>. </li>
-            <li> 2022/10 -- Congratulations to <strong>Wentao Wu</strong>! New paper was accepted by <strong>OE</strong>. </li>
-            <li> 2022/09 -- Congratulations to <strong>Wentao Wu</strong>! New paper was accepted by <strong>IEEE T-SMCA</strong>. </li>
-            <li> 2022/09 -- Congratulations to <strong>Xiangxuan Ren</strong>! New paper was accepted by <strong>IEEE T-IV</strong>. </li>
-            <li> 2022/04 -- Congratulations to <strong>Wentao Wu</strong>! New paper was accepted by <strong>IEEE T-IV</strong>. </li>
-            <li> 2022/01 -- Congratulations to <strong>Wentao Wu</strong>! New paper was accepted by <strong>OE</strong>. </li> 
-            <li> 2021/04 -- Congratulations to <strong>Wentao Wu</strong>! New paper was accepted by <strong>IEEE T-CYB</strong>. </li> 
-          </ul>
+        <ul>
+          <li class="new-message"> 2023/02 -- Congratulations to <strong>Yibo Zhang</strong>! New paper was accepted by <strong>IEEE T-CSII</strong>. </li>
+          <li> 2022/12 -- 获得海南自贸港创业大赛院校学生专项赛一等奖 <strong></strong>. </li>
+          <li> 2023/02 -- Congratulations to <strong>Yibo Zhang</strong>! New paper was accepted by <strong>IEEE T-IV</strong>. </li>
+          <li> 2022/10 -- Congratulations to <strong>Wentao Wu</strong>! New paper was accepted by <strong>OE</strong>. </li>
+          <li> 2022/09 -- Congratulations to <strong>Wentao Wu</strong>! New paper was accepted by <strong>IEEE T-SMCA</strong>. </li>
+          <li> 2022/09 -- Congratulations to <strong>Xiangxuan Ren</strong>! New paper was accepted by <strong>IEEE T-IV</strong>. </li>
+          <li> 2022/04 -- Congratulations to <strong>Wentao Wu</strong>! New paper was accepted by <strong>IEEE T-IV</strong>. </li>
+          <li> 2022/01 -- Congratulations to <strong>Wentao Wu</strong>! New paper was accepted by <strong>OE</strong>. </li>
+          <li> 2021/04 -- Congratulations to <strong>Wentao Wu</strong>! New paper was accepted by <strong>IEEE T-CYB</strong>. </li>
+        </ul>
         <br>
         <hr>
+      </div>
+      <div class="page-footer" style="position: fixed; bottom: 0; width: 100%; background-color: #f2f2f2;">
+
+        <section class="footer" style="text-align: left; padding-top: 10px; padding-bottom: 5px; border-top-width: 0px; width: 1680px; height: 31.8359px;">
+          <footer>
+            <span class="footer__copyright">
+              This site is licensed under
+              <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank">a Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International License</a>
+            </span>
+            <span class="footer__credit">
+              This site was created by <a href="http://www.GcsSloop.com">@Wentao Wu</a>, referred from <a href="http://www.GcsSloop.com">@GcsSloop</a>, with
+              <a href="https://github.com/GcsSloop/Gcs-Vno-Jekyll" target="_blank">Gcs-Vno-Jekyll</a> being the theme.
+            </span>
+            <span id="busuanzi_container_site_pv">
+              View <span id="busuanzi_value_site_pv"></span>
+            </span> - &copy; 2023
+          </footer>
+        </section>
+      </div>
+
     </div>
-    <div class="page-footer" style="position: fixed; bottom: 0; width: 100%; background-color: #f2f2f2;">
 
-      <section class="footer" style="text-align: left; padding-top: 10px; padding-bottom: 5px; border-top-width: 0px; width: 1680px; height: 31.8359px;">
-        <footer>
-          <span class="footer__copyright">
-            This site is licensed under
-            <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank">a Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International License</a>
-          </span>
-          <span class="footer__credit">
-            This site was created by <a href="http://www.GcsSloop.com">@Wentao Wu</a>, referred from <a href="http://www.GcsSloop.com">@GcsSloop</a>, with
-            <a href="https://github.com/GcsSloop/Gcs-Vno-Jekyll" target="_blank">Gcs-Vno-Jekyll</a> being the theme.
-          </span>
-          <span id="busuanzi_container_site_pv">
-            View <span id="busuanzi_value_site_pv"></span>
-          </span> - &copy; 2023
-        </footer>
-      </section>
-    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 
-  </div>
+    <script type="text/javascript" src="/js/highlight.pack.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
 
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
 
-  <script type="text/javascript" src="/js/highlight.pack.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad();
-  </script>
+    <script>
+      (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-82493667-1', 'auto');
+      ga('send', 'pageview');
+    </script>
 
-  <script type="text/javascript" src="/js/main.js"></script>
-
-  <script>
-    (function(i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function() {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-82493667-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-
-  <footer>
-    <p>&copy; Wentao Wu Homepage</p>
-  </footer>
+    <footer>
+      <p>&copy; Wentao Wu Homepage</p>
+    </footer>
 </body>
 
 </html>
