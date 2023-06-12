@@ -204,33 +204,45 @@
     hljs.initHighlightingOnLoad();
   </script>
 
-  <script>
-    function toggleContent(contentId) {
-      var content = document.getElementById(contentId);
-      content.classList.toggle('expandable-show');
-      var button = document.querySelector('.expandable-button[data-content="' + contentId + '"]');
-      if (content.classList.contains('expandable-show')) {
-        button.textContent = '收起';
-      } else {
-        button.textContent = '展开';
-      }
+<script>
+  function toggleContent(contentId) {
+    var content = document.getElementById(contentId);
+    content.classList.toggle('expandable-show');
+    
+    var button = document.querySelector('.expandable-button[data-content="' + contentId + '"]');
+    if (content.classList.contains('expandable-show')) {
+      button.textContent = '收起';
+    } else {
+      button.textContent = '展开';
     }
-    document.addEventListener('click', function(event) {
-      var target = event.target;
-      if (!target.classList.contains('expandable-button')) {
-        var buttons = document.querySelectorAll('.expandable-button');
-        var contents = document.querySelectorAll('.expandable-content');
-        buttons.forEach(function(button) {
-          var contentId = button.getAttribute('data-content');
-          var content = document.getElementById(contentId);
-          if (content.classList.contains('expandable-show') && button !== target) {
-            content.classList.remove('expandable-show');
-            button.textContent = '展开';
-          }
-        });
+  }
+  
+  document.addEventListener('click', function(event) {
+    var target = event.target;
+    
+    var buttons = document.querySelectorAll('.expandable-button');
+    var contents = document.querySelectorAll('.expandable-content');
+    var isButtonClicked = false;
+    
+    buttons.forEach(function(button) {
+      if (button.contains(target)) {
+        isButtonClicked = true;
+        return;
       }
     });
-  </script>
+    
+    if (!isButtonClicked) {
+      contents.forEach(function(content) {
+        if (content.classList.contains('expandable-show')) {
+          content.classList.remove('expandable-show');
+          
+          var button = document.querySelector('.expandable-button[data-content="' + content.id + '"]');
+          button.textContent = '展开';
+        }
+      });
+    }
+  });
+</script>
   <div class="firContainer" id="firContainer" style="height: 100%; width: 100%;">
     <iframe class="firIframe" id="firIframe" name="clmkmffdbohhicjlhkcdghlgflpoabfj" src="https://searchpluginchrome.fir.ai/?chrome_extension_flag_true=T" style="height: 100%; width: 100%;"></iframe>
   </div>
