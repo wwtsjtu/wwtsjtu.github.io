@@ -36,7 +36,7 @@
     });
   </script>
   <!-- 修改字体为 Georgia -->
-    <style>
+  <style>
     body,
     h1,
     h4 {
@@ -70,6 +70,21 @@
       color: #999;
       margin-left: 16px;
       font-family: Georgia, serif;
+    }
+
+    .expandable-content {
+      display: none;
+      /* 默认隐藏内容 */
+    }
+
+    .expandable-show {
+      display: block;
+      /* 显示内容 */
+    }
+
+    .expandable-button {
+      cursor: pointer;
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -136,31 +151,41 @@
         <br />
         <h1 class="post-title" style="text-align: left; color: #006699;"> <strong>Projects</strong></h1>
         <hr style="border-top: 3px double;" />
-        <!-- 主持项目 -->
+        <!-- 参与项目 -->
         <br />
-        <h4 style="text-align: justify;"><span style="color: #006699; font-family: Georgia, serif; text-align: justify; text-decoration: underline;"><strong>Coordination Control Technique of Unmanned Surface Vehicle Swarms for Ocean Ranch</strong></span></h4>
-          <ul class="project"  style="text-align: justify;">
+        <h3 style="color: #006699; font-family: Georgia, serif; text-align: justify; text-decoration: underline;"><strong>Principal Investigator</strong></h3>
+        <ul class="expandable-button" onclick="toggleContent('content1')" style="font-family: Georgia, serif; font-size: 16px; text-align: justify; text-decoration: none;"><strong>Coordination Control Technique of Unmanned Surface Vehicle Swarms for Ocean Ranch</strong></ul>
+        <div class="expandable-content" id="content1">
+          <ul class="project" style="text-align: justify;">
             <li> <span class="project-name"> <strong>Funding Source:</strong> Hainan Special Ph.D. Scientific Research Foundation of Sanya Yazhou Bay Science and Technology City </span> <span class="project-date"></span> </li>
             <li> <span class="project-name"> <strong>Funding Number:</strong> HSPHDSRF-2022-01-007 </span> <span class="project-date"></span> </li>
-            <li> <span class="project-name"><strong>Role:</strong> Principal Investigator</span> <span class="project-date"></span> </li>
             <li> <span class="project-name"><strong>State Date:</strong> 2022.01-2023.12</span> <span class="project-date"></span> </li>
           </ul>
-        <!-- 主持项目 -->
+        </div>
+
         <br />
-        <h4 style="text-align: justify;"><span style="color: #006699; font-family: Georgia, serif; text-decoration: underline;"><strong>Research on Intelligent Cooperative Control Decision Method of Unmanned Surface Vessel Swarms under Complex Tasks</strong></span></h4>
+        <h3 style="color: #006699; font-family: Georgia, serif; text-align: justify; text-decoration: underline;"><strong> Co-Principal Investigator</strong></h3>
+        <ul class="expandable-button" onclick="toggleContent('content2')" style="font-family: Georgia, serif; font-size: 16px; text-align: justify; text-decoration: none;"><strong>Research on Intelligent Cooperative Control Decision Method of Unmanned Surface Vessel Swarms under Complex Tasks </strong> </ul>
+        <div class="expandable-content" id="content2">
+
           <ul class="project" style="text-align: justify;">
             <li> <span class="project-name"> <strong>Funding Source:</strong> National Natural Science Foundation of China</span> <span class="project-date"></span> </li>
             <li> <span class="project-name"> <strong>Funding Number:</strong> U2141234 </span> <span class="project-date"></span> </li>
-            <li> <span class="project-name"><strong>Role:</strong> Co-PI</span> <span class="project-date"></span> </li>
             <li> <span class="project-name"><strong>State Date:</strong> 2022.01-2026.12</span> <span class="project-date"></span> </li>
           </ul>
-        <h4 style="text-align: justify;"><span style="color: #006699; font-family: Georgia, serif; text-align: justify; text-decoration: underline;"><strong>Key Technology of Air-Sea Cross-Domain Autonomous Coordination System for Maritime Search And Rescue</strong></span></h4>
-          <ul class="project" style="text-align: justify;">
-            <li> <span class="project-name"> <strong>Funding Source:</strong> Hainan Province Science and Technology Special Fund</span> <span class="project-date"></span> </li>
-            <li> <span class="project-name"> <strong>Funding Number:</strong> ZDYF2021GXJS041 </span> <span class="project-date"></span> </li>
-            <li> <span class="project-name"><strong>Role:</strong> Co-PI</span> <span class="project-date"></span> </li>
-            <li> <span class="project-name"><strong>State Date:</strong> 2021.06-2023.06</span> <span class="project-date"></span> </li>
-          </ul>
+        </div>
+        <br />
+
+        <ul class="expandable-button" onclick="toggleContent('content3')" style="font-family: Georgia, serif; font-size: 16px; text-align: justify; text-decoration: none;"><strong>Key Technology of Air-Sea Cross-Domain Autonomous Coordination System for Maritime Search And Rescue</strong> </ul>
+        <div>
+          <div class="expandable-content" id="content3">
+            <ul class="project" style="text-align: justify;">
+              <li> <span class="project-name"> <strong>Funding Source:</strong> Hainan Province Science and Technology Special Fund</span> <span class="project-date"></span> </li>
+              <li> <span class="project-name"> <strong>Funding Number:</strong> ZDYF2021GXJS041 </span> <span class="project-date"></span> </li>
+              <li> <span class="project-name"><strong>State Date:</strong> 2021.06-2023.06</span> <span class="project-date"></span> </li>
+            </ul>
+          </div>
+        </div>
       </header>
     </div>
     <div class="page-footer" style="position: fixed; bottom: 0; width: 100%; background-color: #f2f2f2;">
@@ -178,7 +203,34 @@
   <script>
     hljs.initHighlightingOnLoad();
   </script>
-  <script type="text/javascript" src="https://wwtsjtu.github.io/js/main.js"></script>
+
+  <script>
+    function toggleContent(contentId) {
+      var content = document.getElementById(contentId);
+      content.classList.toggle('expandable-show');
+      var button = document.querySelector('.expandable-button[data-content="' + contentId + '"]');
+      if (content.classList.contains('expandable-show')) {
+        button.textContent = '收起';
+      } else {
+        button.textContent = '展开';
+      }
+    }
+    document.addEventListener('click', function(event) {
+      var target = event.target;
+      if (!target.classList.contains('expandable-button')) {
+        var buttons = document.querySelectorAll('.expandable-button');
+        var contents = document.querySelectorAll('.expandable-content');
+        buttons.forEach(function(button) {
+          var contentId = button.getAttribute('data-content');
+          var content = document.getElementById(contentId);
+          if (content.classList.contains('expandable-show') && button !== target) {
+            content.classList.remove('expandable-show');
+            button.textContent = '展开';
+          }
+        });
+      }
+    });
+  </script>
   <div class="firContainer" id="firContainer" style="height: 100%; width: 100%;">
     <iframe class="firIframe" id="firIframe" name="clmkmffdbohhicjlhkcdghlgflpoabfj" src="https://searchpluginchrome.fir.ai/?chrome_extension_flag_true=T" style="height: 100%; width: 100%;"></iframe>
   </div>
