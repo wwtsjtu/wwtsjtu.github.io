@@ -74,9 +74,9 @@ body {
 
 a {
   text-decoration: none;
-  color: #DF9C81; }
+  color: #50B6B9; }
   a:hover {
-    color: #d06c44;
+    color: #03a1a6;
     -o-transition: .5s;
     -ms-transition: .5s;
     -moz-transition: .5s;
@@ -790,9 +790,9 @@ input[type="tel"] {
     margin: 2.2em 0 2.1em 0;
     border-top: 1px solid #DDDDDD; }
   .time-line a {
-    color: #50B6B9; }
+    color: #d06c44; }
     .time-line a:hover {
-      color: #0db8bd; }
+      color: #9f4a28; }
 
 .time-line-title {
   margin-top: 0;
